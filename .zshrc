@@ -72,7 +72,10 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+          git
+          zsh-autosuggestions
+        )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -131,6 +134,11 @@ _fzf_compgen_dir() {
 
 source ~/fzf-git.sh/fzf-git.sh
 
+
 # electron apps
 alias spotify="spotify --enable-features=UseOzonePlatform, WaylandWindowDecorations --ozone-platform=xwayland --uri=%U"
 
+alias cls=clear
+
+export LC_ALL=en_US.UTF-8  
+export LANG=en_US.UTF-8
