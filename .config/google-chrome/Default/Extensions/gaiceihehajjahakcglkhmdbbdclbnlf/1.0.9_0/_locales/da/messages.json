@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Hastighedscontroller til HTML5-videoer. Administrer videohastighed, fremskynd ved hjælp af videohastighedsafspilning. Videohastighedskontrol."
+   },
+   "name": {
+      "message": "Videohastighedskontrol til HTML5"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

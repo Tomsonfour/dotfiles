@@ -1,0 +1,1 @@
+'use strict';chrome.app.runtime.onLaunched.addListener(function(){chrome.storage.local.get(["theme"],a=>{(a=a.theme)&&"light"!=a&&"dark"!=a&&(a=void 0,chrome.storage.local.remove("theme"));a||(a=window.matchMedia("(prefers-color-scheme: light)")?"light":"dark");chrome.app.window.create(`main.html?theme=${a}`,{frame:{color:"light"==a?"#eee":"#111"}})})});

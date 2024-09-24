@@ -1,0 +1,7 @@
+2024/07/26-17:00:18.106 4bc2 Reusing MANIFEST /home/tommy/.config/google-chrome/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/26-17:00:18.106 4bc2 Recovering log #3
+2024/07/26-17:00:18.107 4bc2 Reusing old log /home/tommy/.config/google-chrome/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/000003.log 
+2024/07/26-21:07:44.550 4bcf Level-0 table #5: started
+2024/07/26-21:07:44.553 4bcf Level-0 table #5: 4463 bytes OK
+2024/07/26-21:07:44.559 4bcf Delete type=0 #3
+2024/07/26-21:07:44.559 4bc5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+2024/07/26-22:11:48.723 4bc2 Reusing MANIFEST /home/tommy/.config/google-chrome/Default/IndexedDB/https_vim.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/26-22:11:48.723 4bc2 Recovering log #3
+2024/07/26-22:11:48.748 4bc2 Reusing old log /home/tommy/.config/google-chrome/Default/IndexedDB/https_vim.fandom.com_0.indexeddb.leveldb/000003.log 
+2024/07/27-01:37:04.421 4bc2 Level-0 table #5: started
+2024/07/27-01:37:04.424 4bc2 Level-0 table #5: 18473 bytes OK
+2024/07/27-01:37:04.435 4bc2 Delete type=0 #3
+2024/07/27-01:37:04.436 4bc2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

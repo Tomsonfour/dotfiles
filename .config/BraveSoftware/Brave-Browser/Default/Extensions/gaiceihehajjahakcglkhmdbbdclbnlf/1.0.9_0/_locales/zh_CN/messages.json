@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "HTML5 的視頻速度控制。 通過視頻播放和視頻控制、視頻控制器管理視頻速度。 視頻速度播放"
+   },
+   "name": {
+      "message": "視訊速度控制器 - 視訊管理器"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Video Speed Controller</title>
+  <link rel="stylesheet" href="css/settings.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="javascript/settings.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Video Speed Controller</h1>
+  </header>
+
+  <section id="customs">
+    <h3>Shortcuts</h3>
+    <div class="row customs" id="display">
+      <select class="customDo">
+        <option value="display">Show/hide controller</option>
+      </select>
+      <input class="customKey" type="text" value="" placeholder="press a key" />
+      <input class="customValue" type="text" placeholder="value (0.10)" />
+      <select class="customForce">
+        <option value="false">Do not disable website key bindings</option>
+        <option value="true">Disable website key bindings</option>
+      </select>
+    </div>
+    <div class="row customs" id="slower">
+      <select class="customDo">
+        <option value="slower">Decrease speed</option>
+      </select>
+      <input class="customKey" type="text" value="" placeholder="press a key" />
+      <input class="customValue" type="text" placeholder="value (0.10)" />
+      <select class="customForce">
+        <option value="false">Do not disable website key bindings</option>
+        <option value="true">Disable website key bindings</option>
+      </select>
+    </div>
+    <div class="row customs" id="faster">
+      <select class="customDo">
+        <option value="faster">Increase speed</option>
+      </select>
+      <input class="customKey" type="text" value="" placeholder="press a key" />
+      <input class="customValue" type="text" placeholder="value (0.10)" />
+      <select class="customForce">
+        <option value="false">Do not disable website key bindings</option>
+        <option value="true">Disable website key bindings</option>
+      </select>
+    </div>
+    <div class="row customs" id="rewind">
+      <select class="customDo">
+        <option value="rewind">Rewind</option>
+      </select>
+      <input class="customKey" type="text" value="" placeholder="press a key" />
+      <input class="customValue" type="text" placeholder="value (10)" />
+      <select class="customForce">
+        <option value="false">Do not disable website key bindings</option>
+        <option value="true">Disable website key bindings</option>
+      </select>
+    </div>
+    <div class="row customs" id="advance">
+      <select class="customDo">
+        <option value="advance">Advance</option>
+      </select>
+      <input class="customKey" type="text" value="" placeholder="press a key" />
+      <input class="customValue" type="text" placeholder="value (10)" />
+      <select class="customForce">
+        <option value="false">Do not disable website key bindings</option>
+        <option value="true">Disable website key bindings</option>
+      </select>
+    </div>
+    <div class="row customs" id="reset">
+      <select class="customDo">
+        <option value="reset">Reset speed</option>
+      </select>
+      <input class="customKey" type="text" value="" placeholder="press a key" />
+      <input class="customValue" type="text" placeholder="value (1.00)" disabled />
+      <select class="customForce">
+        <option value="false">Do not disable website key bindings</option>
+        <option value="true">Disable website key bindings</option>
+      </select>
+    </div>
+    <div class="row customs" id="fast">
+      <select class="customDo">
+        <option value="fast">Preferred speed</option>
+      </select>
+      <input class="customKey" type="text" value="" placeholder="press a key" />
+      <input class="customValue" type="text" placeholder="value (1.80)" />
+      <select class="customForce">
+        <option value="false">Do not disable website key bindings</option>
+        <option value="true">Disable website key bindings</option>
+      </select>
+    </div>
+
+    <button id="add">Add New</button>
+  </section>
+
+  <section>
+    <h3>Other</h3>
+    <div class="row">
+      <label for="enabled">Enable</label>
+      <input id="enabled" type="checkbox" />
+    </div>
+    <div class="row">
+      <label for="startHidden">Hide controller by default</label>
+      <input id="startHidden" type="checkbox" />
+    </div>
+    <div class="row">
+      <label for="rememberSpeed">Remember playback speed</label>
+      <input id="rememberSpeed" type="checkbox" />
+    </div>
+    <div class="row">
+      <label for="forceLastSavedSpeed">Force last saved speed<br />
+        <em>Useful for video players that override the speeds set by VideoSpeed</em></label>
+      <input id="forceLastSavedSpeed" type="checkbox" />
+    </div>
+    <div class="row">
+      <label for="audioBoolean">Work on audio</label>
+      <input id="audioBoolean" type="checkbox" />
+    </div>
+    <div class="row">
+      <label for="controllerOpacity">Controller opacity</label>
+      <input id="controllerOpacity" type="text" value="" />
+    </div>
+    <div class="row">
+      <label for="blacklist">Sites on which extension is disabled<br />
+        (one per line)<br />
+        <br />
+        <em>
+          <a href="https://www.regexpal.com/">Regex</a> is supported.<br />
+          Be sure to use the literal notation.<br />
+          ie: /(.+)youtube\.com(\/*)$/gi
+        </em>
+      </label>
+      <textarea id="blacklist" rows="10" cols="50"></textarea>
+    </div>
+  </section>
+
+  <footer>
+    <button id="save">
+      <img src="assets/save.svg">
+      <span>Save</span>
+    </button>
+    <button id="restore">Restore Defaults</button>
+    <button id="experimental">Show Experimental Features</button>
+  </footer>
+
+
+  <div id="status"></div>
+
+  <div id="faq">
+  </div>
+</body>
+
+</html>

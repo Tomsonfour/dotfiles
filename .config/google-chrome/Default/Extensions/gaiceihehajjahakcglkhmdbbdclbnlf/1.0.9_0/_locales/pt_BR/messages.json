@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Controlador de velocidade para vídeos HTML5. Gerencie a velocidade do vídeo, acelere usando a reprodução da velocidade do vídeo. Controle de velocidade de vídeo."
+   },
+   "name": {
+      "message": "Controlador de velocidade de vídeo"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

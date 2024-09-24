@@ -1,0 +1,7 @@
+2024/07/10-16:07:49.711 55c Reusing MANIFEST /home/tommy/.config/google-chrome/Default/IndexedDB/https_excalidraw.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/10-16:07:49.711 55c Recovering log #3
+2024/07/10-16:07:49.724 55c Reusing old log /home/tommy/.config/google-chrome/Default/IndexedDB/https_excalidraw.com_0.indexeddb.leveldb/000003.log 
+2024/07/10-17:42:58.297 55c Level-0 table #5: started
+2024/07/10-17:42:58.304 55c Level-0 table #5: 38358 bytes OK
+2024/07/10-17:42:58.318 55c Delete type=0 #3
+2024/07/10-17:42:58.318 55c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

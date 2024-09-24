@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Geschwindigkeitsregler für HTML5-Videos. Verwalten Sie die Videogeschwindigkeit, beschleunigen Sie die Wiedergabe mit Videogeschwindigkeit. Steuerung der Videogeschwindigkeit."
+   },
+   "name": {
+      "message": "Video-Geschwindigkeitsregler"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

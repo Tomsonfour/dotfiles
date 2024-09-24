@@ -1,0 +1,15 @@
+2024/09/17-11:33:41.824 1984 Reusing MANIFEST /home/tommy/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2024/09/17-11:33:41.849 1984 Recovering log #125
+2024/09/17-11:33:41.928 1984 Reusing old log /home/tommy/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000125.log 
+2024/09/17-11:33:52.195 1975 Level-0 table #129: started
+2024/09/17-11:33:52.254 1975 Level-0 table #129: 1209220 bytes OK
+2024/09/17-11:33:52.268 1975 Delete type=0 #125
+2024/09/17-11:33:52.270 1974 Compacting 4@0 + 1@1 files
+2024/09/17-11:33:52.353 1974 Generated table #130@0: 13 keys, 295836 bytes
+2024/09/17-11:33:52.354 1974 Compacted 4@0 + 1@1 files => 295836 bytes
+2024/09/17-11:33:52.358 1974 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/17-11:33:52.358 1974 Delete type=2 #119
+2024/09/17-11:33:52.358 1974 Delete type=2 #122
+2024/09/17-11:33:52.358 1974 Delete type=2 #124
+2024/09/17-11:33:52.358 1974 Delete type=2 #126
+2024/09/17-11:33:52.358 1974 Delete type=2 #129

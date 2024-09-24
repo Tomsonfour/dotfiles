@@ -1,0 +1,292 @@
+{
+  "_extensionName": "Pepper | Zakupy z oszczędnościami",
+  "_extensionDescription": "Nie szukaj już zniżek! Pepper znajdzie dla Ciebie te najlepsze.",
+  "_extensionMetaDesc": "Pepper | Oszczędzaj pieniądze na zakupach",
+  "common": {
+    "privacy-policy": {
+      "link": "Polityką Prywatności",
+      "text": "Pepper identyfikuje jedynie adresy URL witryn partnerskich, aby zaoferować zniżki przy zakupach. Aby uzyskać więcej informacji, zapoznaj się z naszą"
+    },
+    "cookie-link": "plików cookie"
+  },
+  "page": {
+    "install-success": {
+      "header": "Hej, gratulacje!\nTwoje rozszerzenie przeglądarki jest gotowe go użycia",
+      "title": "Wypróbuj Pepper teraz!",
+      "description": "Wybierz sklep poniżej i sprawdź sam, jak to działa. 👇",
+      "document": {
+        "title": "Zainstaluj｜Pepper"
+      }
+    },
+    "privacy": {
+      "header": "Twoja prywatność.\nTwoje prawa, ",
+      "check-list": {
+        "personal-info": "Nigdy nie zbieramy Twoich adresów, transakcji, sald ani żadnych innych danych osobowych.",
+        "sell-data": "Nigdy nikomu nie sprzedamy Twoich danych."
+      },
+      "cookie": {
+        "title": "Ustawienia plików cookie",
+        "description": "Analityczne pliki cookie służą do zrozumienia, w jaki sposób odwiedzający wchodzą w interakcje z rozszerzeniem: liczba odwiedzających, źródło ruchu itp. Zawsze możesz zmienić lub wycofać swoją zgodę na stronie ustawień. Aby uzyskać więcej informacji, zapoznaj się z naszymi Zasadami dotyczącymi",
+        "link": "plików cookie",
+        "button": {
+          "no": "Nie, dziękuję",
+          "yes": "Tak, zgadzam się"
+        }
+      },
+      "document": {
+        "title": "Prywatność｜Pepper"
+      }
+    },
+    "settings": {
+      "configurations": {
+        "title": "Ustawienia",
+        "description": "Ulepszone wyniki wyszukiwania",
+        "enable-serp": "Pokaż dostępne kody kuponów w wynikach Google"
+      },
+      "privacy-policy": {
+        "title": "Polityką Prywatności",
+        "enable-analytics": "Zezwól na analityczne pliki cookie. Służą one do zrozumienia, w jaki sposób odwiedzający wchodzą w interakcję z rozszerzeniem: liczba odwiedzających, źródło ruchu itp. Aby uzyskać więcej informacji, zapoznaj się z naszymi"
+      },
+      "links": {
+        "title": "Linki",
+        "extension-store": "Oceń rozszerzenie przeglądarki Pepper",
+        "send-email": "Potrzebujesz pomocy? Skontaktuj się z nami",
+        "mail-to": "https://www.pepper.pl/contact",
+        "visit-web-site": "O Pepper.pl",
+        "terms-conditions": "Regulamin"
+      },
+      "document": {
+        "title": "Ustawienia｜Pepper"
+      },
+      "hidden-merchants": "Rozszerzenie obecnie jest ukryte na stronach internetowych"
+    }
+  },
+  "alert": {
+    "caa": {
+      "cupon-detection": {
+        "title_one": "Znaleziono {{count}} kupon!",
+        "title_other": "",
+        "description": "Pepper automatycznie zastosuje najlepszy kupon w Twoim koszyku.",
+        "action-button": "ZASTOSUJ KUPONY",
+        "title_few": "Znaleziono {{count}} kupony!",
+        "title_many": "Znaleziono {{count}} kuponów!"
+      },
+      "testing": {
+        "progress": {
+          "title": "Pepper dodaje wszystkie dostępne kupony do Twojego zakupu ",
+          "text": "{{currentCouponIndex}} z {{totalCouponsCount}} kuponów",
+          "text-found-best-coupon": "Łaaaaał! Zaoszczędzono już {{savedAmount}}"
+        },
+        "failure": {
+          "title": "Wypróbowaliśmy wszystkie kody - masz już najlepszą cene!",
+          "action-button": "KONTYNUUJ ZAKUPY"
+        },
+        "success": {
+          "title": "Zaoszczędzono {{amount}} z kuponem <span class=\"gsg-extension-dialog__inline-code gsg-extension-dialog__chip\">{{code}}</span>",
+          "sub-title": "Wypróbowaliśmy dla Ciebie wszystkie kupony",
+          "price": "Standardowa cena:",
+          "price-after": "Cena z rozszerzeniem Pepper:",
+          "action-button": "KONTYNUUJ",
+          "rate-us": "Podoba ci się rozszerzenie?",
+          "rate-us-link": "Kliknij aby zostawić nam opinię."
+        },
+        "leadgen-cashback": {
+          "title": {
+            "sephora": "",
+            "aliexpress": "",
+            "myprotein": "",
+            "ebay": "",
+            "docmorris": ""
+          },
+          "description": "",
+          "action-button": ""
+        }
+      }
+    },
+    "cay": {
+      "voucher": {
+        "details": "Warunki",
+        "expiration": "Wygasa",
+        "reveal_button": "Wyświetl kupon",
+        "copied": "Skopiowane",
+        "copy": "skopiuj"
+      },
+      "vouchers": {
+        "title_few": "Znaleziono {{count}} kupony!",
+        "title_many": "Znaleziono {{count}} kuponów",
+        "title_one": " Znaleziono {{count}} kupon!",
+        "title_other": ""
+      },
+      "deals": {
+        "title_few": "Znaleziono {{count}} okazje!",
+        "title_many": "Znaleziono {{count}} okazji!",
+        "title_one": "Znaleziono {{count}} okazję!",
+        "title_other": "",
+        "price-free": "Darmowa",
+        "search": "Szukaj…"
+      },
+      "empty-page": "Nie znaleziono {{type}} dla {{merchantName}}",
+      "footer": {
+        "vouchers": {
+          "title_few": "Kupony",
+          "title_many": "Kuponów",
+          "title_one": "Kupon",
+          "title_other": ""
+        },
+        "deals": {
+          "title_one": "Okazję",
+          "title_few": "Okazje",
+          "title_many": "Okazji",
+          "title_other": ""
+        }
+      },
+      "options": {
+        "title": "Oszczędzaj pieniądze jednym kliknięciem",
+        "description": "Pepper automatycznie zastosuje najlepszy kupon w Twoim koszyku.",
+        "button": "ZASTOSUJ KUPONY",
+        "show-vouchers": "Po prostu pokaż wszystkie kupony"
+      },
+      "feedback-banner": {
+        "content": "Pomóż nam ulepszyć rozszerzenie Pepper i zdobądź <b>voucher 50 zł Amazon.pl</b>. <a class='gsg-banner__content-link' target='_blank' href='https://tdmz.io/study/IUveJQjHFK'>Zapisz się teraz</a>"
+      },
+      "empty-page_male": "",
+      "empty-page_female": ""
+    },
+    "notification": {
+      "vouchers": {
+        "title_one": "Znaleziono {{count}} kupon!",
+        "title_few": "Znaleziono {{count}} kupony",
+        "title_many": "Znaleziono {{count}} kuponów",
+        "title_other": "",
+        "description": "Automatycznie zastosujemy najkorzystniejszy z kuponów, który jest odpowiedni dla Twojego koszyka"
+      },
+      "deals": {
+        "title_one": "Znaleziono {{count}} okazję!",
+        "title_few": "Znaleziono {{count}} okazje!",
+        "title_many": "Znaleziono {{count}} okazji!",
+        "title_other": "",
+        "more": "Zobacz wszystkie okazje",
+        "description": "Wspaniałe oferty udostępnione przez naszą społeczność czekają na Ciebie!"
+      },
+      "hide": {
+        "title": "Chcę ukryć rozszerzenie dla {{merchantName}}",
+        "once": "Tylko na 1 dzień",
+        "always": "Zawsze ukrywaj"
+      }
+    }
+  },
+  "onboarding-tooltips": {
+    "notification": {
+      "title": "Nigdy nie przegap oferty",
+      "description": "Rozszerzenie Pepper automatycznie powiadomi Cię o wszelkich dostępnych zniżkach, gdy odwiedzisz stronę internetową.",
+      "action-button": "Zaczynamy",
+      "hide": {
+        "title-once": "Pepper nie pojawi się już na tej stronie do jutra.",
+        "description": "Zawsze możesz ponownie włączyć rozszerzenie w ustawieniach, klikając logo Pepper w przeglądarce.",
+        "action": "OK",
+        "title-always": "Pepper nie będzie już pojawiać się na tej stronie"
+      }
+    },
+    "caa": {
+      "title": "Oszczędzaj jednym kliknięciem",
+      "description": "Testuj i stosuj najlepsze kody promocyjne jednym kliknięciem tego przycisku.",
+      "action-button": "Rozumiem!"
+    },
+    "cay": {
+      "action-button": "Rozumiem!",
+      "vouchers": {
+        "title": "Oszczędzaj czas i pieniądze!",
+        "description": "Aby skopiować kupon, po prostu wyświetl kod i kliknij znajdujący się obok niego przycisk „Pobierz kupon”. Chcesz dowiedzieć się więcej o warunkach? Kliknij „Warunki”.",
+        "action-button": "Rozumiem!"
+      },
+      "deals": {
+        "title": "Sprawdź okazje",
+        "description": "Czekają na Ciebie wspaniałe oferty udostępnione przez naszą społeczność. Wystarczy kliknąć kartę Okazje, aby zobaczyć, aktualne promocje.",
+        "action-button": "Rozumiem!"
+      }
+    },
+    "side-button": {
+      "title": "Uzyskaj szybko dostęp do zniżek",
+      "description": "Kliknij przycisk, aby uzyskać szybko dostęp do listy dostępnych zniżek u sprzedawcy, u którego robisz zakupy.",
+      "action-button": "Zaczynamy"
+    }
+  },
+  "extension-window": {
+    "title": "Oszczędzaj pieniądze na wszystkich zakupach online!",
+    "description": "Pepper automatycznie testuje i stosuje najlepszy kupon do Twojego koszyka, za pomocą jednego kliknięcia.",
+    "how-it-works": {
+      "title": "Jak to działa?",
+      "item-1": "Rozszerzenie Pepper pojawi się w koszyku na stronie sprzedawcy, jeśli znajdzie dostępne kody promocyjne.",
+      "item-2": "Następnie kliknij przycisk Testuj Kody, aby Pepper automatycznie przetestował kody.",
+      "item-3": "Rozszerzenie zastosuje najciekawszy kod promocyjny do Twojego koszyka."
+    },
+    "help-us": {
+      "title": "Pomóż nam ulepszyć nasze rozszerzenie",
+      "description": "Mamy nadzieję, że podoba Ci się nasze rozszerzenie. Jeśli masz chwilę, podziel się swoją opinią, aby pomóc nam je ulepszyć. Dziękuję! Zespół Pepper",
+      "action-button": "Zostaw opinię"
+    },
+    "leadgen-cashback": {
+      "title": "",
+      "description": "",
+      "description-2": "",
+      "action-button": ""
+    },
+    "empty_page": {
+      "search_on_retailer": "Rozszerz moje wyszukiwanie"
+    }
+  },
+  "side-button": {
+    "tooltip": {
+      "action-1-start": "Przeciągnij",
+      "action-1-end": "aby przesująć",
+      "action-2-start": "Kliknij",
+      "action-2-end": "aby otworzyć"
+    }
+  },
+  "serp": {
+    "vouchers": {
+      "title_one": "{{count}} kupon",
+      "title_few": "{{count}} kupony",
+      "title_many": "{{count}} kuponów",
+      "title_other": ""
+    },
+    "deals": {
+      "title_one": " {{count}} okazję",
+      "title_few": "{{count}} okazje",
+      "title_many": "{{count}} okazji",
+      "title_other": ""
+    }
+  },
+  "onboarding-title": "Aby zainstalować rozszerzenie Pepper, wykonaj poniższe czynności:",
+  "onboarding-step-one-title": "Krok 1",
+  "onboarding-step-one-description": "Zacznij od aktywacji rozszerzenia Pepper, zaznaczając je w ustawieniach Safari",
+  "onboarding-step-one-button": "Przejdź do ustawień",
+  "onboarding-step-two-title": "Krok 2",
+  "safari": {
+    "onboarding-step-two-description": "Kliknij ikonę rozszerzenia Pepper i wybierz",
+    "onboarding-step-two-sub-description": "„Zawsze pozwalaj w każdej witrynie”"
+  },
+  "onboarding-step-two-button": "Wróć do Safari",
+  "onboarding-last-title": "Ostatni krok przed użyciem Pepper",
+  "cay": {
+    "sort-coupon": {
+      "deals": {
+        "title": {
+          "most-relevant": "",
+          "most-relevant-count": "",
+          "all-count": "",
+          "other-count": ""
+        },
+        "status": {
+          "intro": "",
+          "loading": "",
+          "no-result": ""
+        },
+        "action": {
+          "sort-again": "",
+          "sort": ""
+        }
+      }
+    }
+  }
+}

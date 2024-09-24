@@ -1,0 +1,1 @@
+const rangeInputs=document.querySelectorAll('input[type="range"]');function handleInputChange(e){let n=e.target;"range"!==e.target.type&&(n=document.getElementById("range"));const t=n.min,a=n.max,r=n.value;n.style.backgroundSize=100*(r-t)/(a-t)+"% 100%"}rangeInputs.forEach((e=>{e.addEventListener("input",handleInputChange)}));

@@ -1,0 +1,292 @@
+{
+  "_extensionName": "Pepper | Risparmia sul tuo shopping",
+  "_extensionDescription": "Non perdere tempo cercando codici sconto! Pepper trova i migliori per te.",
+  "_extensionMetaDesc": "",
+  "common": {
+    "privacy-policy": {
+      "link": "Politica sulla privacy",
+      "text": "Pepper identifica solo gli URL dei siti web partner per offrirti sconti quando effettui acquisti. Per ulteriori informazioni visita la nostra"
+    },
+    "cookie-link": "Politica dei cookie"
+  },
+  "page": {
+    "install-success": {
+      "header": "Hey, congratulazioni!\nL'estensione del tuo browser è pronta per essere utilizzata",
+      "title": "Prova Pepper adesso!",
+      "description": "Scegli un negozio qui sotto e controlla per vedere tu stesso come funziona. 👇",
+      "document": {
+        "title": "Installa｜Pepper"
+      }
+    },
+    "privacy": {
+      "header": "La tua privacy. \nAbbiamo solo bisogno del tuo permesso.",
+      "check-list": {
+        "personal-info": "Non raccoglieremo mai i tuoi indirizzi, transazioni, saldi o qualsiasi altra informazione personale.",
+        "sell-data": "Non venderemo mai i tuoi dati."
+      },
+      "cookie": {
+        "title": "Configurazione dei cookie",
+        "description": "I cookie analitici vengono utilizzati per capire come i visitatori interagiscono con l'estensione: numero di visitatori, fonte di traffico, ecc. Puoi sempre modificare o revocare il tuo consenso dalla pagina delle impostazioni. Per ulteriori informazioni visita la nostra",
+        "link": "",
+        "button": {
+          "no": "No, grazie",
+          "yes": "Si, acconsento"
+        }
+      },
+      "document": {
+        "title": "Privacy | Pepper"
+      }
+    },
+    "settings": {
+      "configurations": {
+        "title": "Impostazioni",
+        "description": "Risultati dei motori di ricerca migliorati",
+        "enable-serp": "Mostra i codici sconto disponibili nei risultati di Google"
+      },
+      "privacy-policy": {
+        "title": "Privacy",
+        "enable-analytics": "Consenti cookie analitici. Vengono utilizzati per capire come i visitatori interagiscono con l'estensione: numero di visitatori, fonte di traffico, ecc. Per ulteriori informazioni, visita la nostra"
+      },
+      "links": {
+        "title": "Link",
+        "extension-store": "Valuta l’estensione Pepper",
+        "send-email": "Hai bisogno di aiuto? Contattaci",
+        "mail-to": "",
+        "visit-web-site": "Su Pepper.it",
+        "terms-conditions": "Termini e Condizioni"
+      },
+      "document": {
+        "title": "Impostazioni｜Pepper"
+      },
+      "hidden-merchants": "Estensione attualmente nascosta sui siti web"
+    }
+  },
+  "alert": {
+    "caa": {
+      "cupon-detection": {
+        "title_one": "{{count}} codice sconto trovato!",
+        "title_other": "{{count}} codici sconto trovati!",
+        "description": "Pepper applicherà automaticamente il miglior codice sconto al tuo carrello",
+        "action-button": "Applica codice sconto",
+        "title_few": "",
+        "title_many": ""
+      },
+      "testing": {
+        "progress": {
+          "title": "Pepper sta applicando tutti i codici sconto disponibili al tuo carrello",
+          "text": "{{currentCouponIndex}} di {{totalCouponsCount}} codici sconto",
+          "text-found-best-coupon": "Wow! Hai già risparmiato {{savedAmount}}"
+        },
+        "failure": {
+          "title": "Abbiamo provato tutti i codici sconto e hai già il prezzo migliore!",
+          "action-button": "Continua ad acquistare"
+        },
+        "success": {
+          "title": "Hai risparmiato {{amount}} con il codice <span class=\"gsg-extension-dialog__inline-code gsg-extension-dialog__chip\">{{code}}</span>",
+          "sub-title": "Abbiamo provato tutti i codici sconto per te",
+          "price": "Prezzo attuale :",
+          "price-after": "Prezzo con Pepper :",
+          "action-button": "CONTINUA AL CARRELLO",
+          "rate-us": "Ti piace la nostra estensione?",
+          "rate-us-link": "Clicca qui per lasciare una recensione"
+        },
+        "leadgen-cashback": {
+          "title": {
+            "sephora": "",
+            "aliexpress": "",
+            "myprotein": "",
+            "ebay": "",
+            "docmorris": ""
+          },
+          "description": "",
+          "action-button": ""
+        }
+      }
+    },
+    "cay": {
+      "voucher": {
+        "details": "Condizioni",
+        "expiration": "Scade il",
+        "reveal_button": "Vedi codice sconto",
+        "copied": "Copiato",
+        "copy": "Copia"
+      },
+      "vouchers": {
+        "title_few": "",
+        "title_many": "",
+        "title_one": "{{count}} codice sconto trovato!",
+        "title_other": "{{count}} codici sconto trovati!"
+      },
+      "deals": {
+        "title_few": "",
+        "title_many": "",
+        "title_one": "{{count}} offerta trovata!",
+        "title_other": "{{count}} offerte trovate!",
+        "price-free": "Gratis",
+        "search": "Cerca…"
+      },
+      "empty-page": "Nessun {{type}} trovato per {{merchantName}}",
+      "footer": {
+        "vouchers": {
+          "title_few": "",
+          "title_many": "",
+          "title_one": "Codice sconto",
+          "title_other": "Codici sconto"
+        },
+        "deals": {
+          "title_one": "Offerta",
+          "title_few": "",
+          "title_many": "",
+          "title_other": "Offerte"
+        }
+      },
+      "options": {
+        "title": "Risparmia con un clic",
+        "description": "Pepper applicherà automaticamente il miglior codice sconto al tuo carrello",
+        "button": "Applica codice sconto",
+        "show-vouchers": "Mostra tutti i codici sconto"
+      },
+      "feedback-banner": {
+        "content": "Aiutaci a migliorare l'estensione e ricevi un <b>buono Amazon da 15€</b>. <a class='gsg-banner__content-link' target='_blank' href='https://tdmz.io/study/IUveJQjHFK'>Iscriviti ora</a>"
+      },
+      "empty-page_male": "",
+      "empty-page_female": ""
+    },
+    "notification": {
+      "vouchers": {
+        "title_one": "{{count}} codice sconto trovato!",
+        "title_few": "",
+        "title_many": "",
+        "title_other": "{{count}} codici sconto trovati!",
+        "description": "Applicheremo automaticamente il migliore al tuo carrello."
+      },
+      "deals": {
+        "title_one": "{{count}} offerta trovata!",
+        "title_few": "",
+        "title_many": "",
+        "title_other": "{{count}} offerte trovate!",
+        "more": "Vedi tutte le offerte",
+        "description": "Le super offerte condivise dalla nostra community ti aspettano"
+      },
+      "hide": {
+        "title": "Voglio nascondere l’estensione su {{merchantName}}",
+        "once": "Solo per 1 giorno",
+        "always": "Sempre"
+      }
+    }
+  },
+  "onboarding-tooltips": {
+    "notification": {
+      "title": "Non perderti più le offerte",
+      "description": "L'estensione Pepper ti avviserà automaticamente degli sconti disponibili quando visiti un sito web.",
+      "action-button": "Vai!",
+      "hide": {
+        "title-once": "Pepper non sarà visualizzato su questo sito fino a domani",
+        "description": "Puoi riattivare l'estensione in qualsiasi momento dalle impostazioni facendo clic sul logo di Pepper.it nel tuo browser.",
+        "action": "OK",
+        "title-always": "Pepper non comparirà più su questo sito"
+      }
+    },
+    "caa": {
+      "title": "Risparmia in un clic",
+      "description": "Prova e applica i migliori codici sconto semplicemente facendo clic su questo pulsante.",
+      "action-button": ""
+    },
+    "cay": {
+      "action-button": "",
+      "vouchers": {
+        "title": "Risparmia tempo e fatica!",
+        "description": "Per copiare un coupon, rivela il codice e fai clic sul pulsante \"Copia\". Vuoi saperne di più sulle condizioni? Fai clic su \"Termini\".",
+        "action-button": "Ho capito!"
+      },
+      "deals": {
+        "title": "Guarda le offerte",
+        "description": "Grandi offerte condivise dalla nostra community ti aspettano. Puoi facilmente fare clic sulla scheda Offerte per vedere cosa è disponibile.",
+        "action-button": "Ho capito!"
+      }
+    },
+    "side-button": {
+      "title": "Trova codici sconto velocemente",
+      "description": "Clicca sul pulsante per accedere rapidamente all'elenco degli sconti disponibili per il sito sul quale stai effettuando acquisti.",
+      "action-button": "Ho capito!"
+    }
+  },
+  "extension-window": {
+    "title": "Risparmia su tutti i tuoi acquisti online!",
+    "description": "Pepper trova e applica automaticamente il miglior coupon al tuo carrello in 1 clic.",
+    "how-it-works": {
+      "title": "Come funziona?",
+      "item-1": "L'estensione di Pepper è visibile direttamente sul sito del negozio nella pagina del carrello, se sono stati trovati codici sconto disponibili.",
+      "item-2": "Clicca sul pulsante 'Prova codici' e Pepper.it testerà automaticamente i codici sconto per te.",
+      "item-3": "L'estensione applicherà il codice promozionale più vantaggioso al tuo carrello."
+    },
+    "help-us": {
+      "title": "Aiutaci a migliorare la nostra estensione",
+      "description": "Ci auguriamo che la nostra estensione sia di tuo gradimento. Se hai un momento, condividi il tuo feedback per aiutarci a migliorare. Grazie! Il team di Pepper.it",
+      "action-button": "Condividi il feedback"
+    },
+    "leadgen-cashback": {
+      "title": "",
+      "description": "",
+      "description-2": "",
+      "action-button": ""
+    },
+    "empty_page": {
+      "search_on_retailer": "Espandere la mia ricerca"
+    }
+  },
+  "side-button": {
+    "tooltip": {
+      "action-1-start": "Trascina",
+      "action-1-end": "per spostare",
+      "action-2-start": "Clicca",
+      "action-2-end": "per aprire"
+    }
+  },
+  "serp": {
+    "vouchers": {
+      "title_one": "{{count}} codice sconto",
+      "title_few": "",
+      "title_many": "",
+      "title_other": "{{count}} codici sconto"
+    },
+    "deals": {
+      "title_one": "{{count}} offerta",
+      "title_few": "",
+      "title_many": "",
+      "title_other": "{{count}} offerte "
+    }
+  },
+  "onboarding-title": "Segui i passaggi seguenti per installare l'estensione Pepper",
+  "onboarding-step-one-title": "Step 1",
+  "onboarding-step-one-description": "Inizia attivando l'estensione nelle preferenze di Safari selezionando l'opzione Pepper",
+  "onboarding-step-one-button": "Vai nelle Preferenze",
+  "onboarding-step-two-title": "Step 2",
+  "safari": {
+    "onboarding-step-two-description": "Fare clic sull'icona dell'estensione Pepper e selezionare",
+    "onboarding-step-two-sub-description": "“Consenti sempre su ogni sito web”"
+  },
+  "onboarding-step-two-button": "Torna su Safari",
+  "onboarding-last-title": "Ultimo step prima di usare Pepper",
+  "cay": {
+    "sort-coupon": {
+      "deals": {
+        "title": {
+          "most-relevant": "",
+          "most-relevant-count": "",
+          "all-count": "",
+          "other-count": ""
+        },
+        "status": {
+          "intro": "",
+          "loading": "",
+          "no-result": ""
+        },
+        "action": {
+          "sort-again": "",
+          "sort": ""
+        }
+      }
+    }
+  }
+}

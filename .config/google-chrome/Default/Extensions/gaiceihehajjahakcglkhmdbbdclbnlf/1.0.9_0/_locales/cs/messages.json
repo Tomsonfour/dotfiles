@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Ovladač rychlosti pro videa HTML5. Spravujte rychlost videa, zrychlete přehrávání pomocí rychlosti videa. Ovládání rychlosti videa."
+   },
+   "name": {
+      "message": "Ovládání rychlosti videa"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

@@ -1,0 +1,17 @@
+2024/08/26-15:01:30.546 9f6 Reusing MANIFEST /home/tommy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.modular.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/26-15:01:30.546 9f6 Recovering log #12
+2024/08/26-15:01:30.546 9f6 Reusing old log /home/tommy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.modular.com_0.indexeddb.leveldb/000012.log 
+2024/08/26-15:01:30.917 a02 Level-0 table #18: started
+2024/08/26-15:01:30.919 a02 Level-0 table #18: 809 bytes OK
+2024/08/26-15:01:30.922 a02 Delete type=0 #12
+2024/08/26-15:01:30.923 a02 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/26-15:01:58.682 9f7 Level-0 table #20: started
+2024/08/26-15:01:58.686 9f7 Level-0 table #20: 4624 bytes OK
+2024/08/26-15:01:58.690 9f7 Delete type=0 #17
+2024/08/26-15:01:58.691 9f5 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 365 : 1
+2024/08/26-15:01:58.691 9f5 Compacting 1@0 + 1@1 files
+2024/08/26-15:01:58.694 9f5 Generated table #21@0: 27 keys, 3403 bytes
+2024/08/26-15:01:58.694 9f5 Compacted 1@0 + 1@1 files => 3403 bytes
+2024/08/26-15:01:58.698 9f5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/08/26-15:01:58.698 9f5 Delete type=2 #20
+2024/08/26-15:01:58.698 9f5 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 365 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

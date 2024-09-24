@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "injection.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG__extensionDescription__",
+   "differential_fingerprint": "1.87b41e65b52bd16a23c6fcae072dda8a6e85f1eacd277853632959363018444b",
+   "icons": {
+      "128": "public/icons/icon.png",
+      "16": "public/icons/icon.png",
+      "48": "public/icons/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApEI54VsP4PI6HHlfOEaEmCdviEf7NVHd6skN8MeEukeVBzWqCjoVSP0AJ/FTdk/Jfy6UDb4E9ufV4e/h0CYl1ECEIvKbJI+dI6JEGRpcmukwUVxY3EiK329iwy1ywrnU2VLYAmptuuekIOIhjNylW42xi1E/Fe5xTVLH7vku9tSJ4hYo9zS+dL1t3u+6VoCgw78swc2mpFOjpeOirpgd8VWRofysvr//b78xlWshw4f0GotOg6QrrqONgdBAzAHHCdL8x6D+3LhR0TCWxcpK3ecktcPV48U1a+rJbfDZpwwEfuY3ZForGxvf36rxP/yvTHpqp9oFDNyRl4h/31NjowIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG__extensionName__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "settings.html"
+   },
+   "permissions": [ "alarms", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "/public/*" ],
+      "use_dynamic_url": true
+   } ]
+}

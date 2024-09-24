@@ -1,0 +1,20 @@
+2024/08/20-19:35:56.135 4 Reusing MANIFEST /home/tommy/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/08/20-19:35:56.229 4 Recovering log #868
+2024/08/20-19:35:56.476 4 Reusing old log /home/tommy/.config/google-chrome/Default/Local Storage/leveldb/000868.log 
+2024/08/20-21:43:20.346 4 Level-0 table #872: started
+2024/08/20-21:43:20.351 4 Level-0 table #872: 10609 bytes OK
+2024/08/20-21:43:20.360 4 Delete type=0 #868
+2024/08/21-02:43:20.324 6 Level-0 table #874: started
+2024/08/21-02:43:20.356 6 Level-0 table #874: 10239 bytes OK
+2024/08/21-02:43:20.362 6 Delete type=0 #871
+2024/08/21-02:43:20.363 6 Compacting 4@0 + 2@1 files
+2024/08/21-02:43:20.428 6 Generated table #875@0: 1935 keys, 2343483 bytes
+2024/08/21-02:43:20.511 6 Generated table #876@0: 3185 keys, 2052604 bytes
+2024/08/21-02:43:20.511 6 Compacted 4@0 + 2@1 files => 4396087 bytes
+2024/08/21-02:43:20.514 6 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/08/21-02:43:20.515 6 Delete type=2 #864
+2024/08/21-02:43:20.515 6 Delete type=2 #865
+2024/08/21-02:43:20.515 6 Delete type=2 #867
+2024/08/21-02:43:20.515 6 Delete type=2 #869
+2024/08/21-02:43:20.515 6 Delete type=2 #872
+2024/08/21-02:43:20.515 6 Delete type=2 #874

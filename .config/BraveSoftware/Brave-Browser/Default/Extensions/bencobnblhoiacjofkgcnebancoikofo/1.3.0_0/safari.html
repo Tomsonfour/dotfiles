@@ -1,0 +1,43 @@
+<!-- Note: This html file should only include JavaScript (JS) or TypeScript (TS).
+    Do not use React/Preact or any framework for this implementation.
+    This file will be preprocessed and used in xcode
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./public/styles/safari.css">
+        <script src="./safari.js"/>
+    </head>
+    <body>
+        <div class="onboarding-header-container">
+            <img id="safariOnboardingLogo" src='./public/images/brand-logo.png' alt="Pepper">
+            <h2 id="safariOnboardingTitle"></h2>
+        </div>
+        <hr>
+        <div class="onboarding-content-container">
+            <div class="onboarding-step-one-container">
+                <h1 id="stepOneTitle"></h1>
+                <p id="stepOneDescription"></p>
+                <div>
+                    <img id="stepOneImage" src='./public/images/step-one.png' alt="" />
+                </div>
+                <span id="stepOneButton" class="stepButton"></span>
+            </div>
+            <div class="onboarding-step-two-container">
+                <h1 id="stepTwoTitle"></h1>
+                <p id="stepTwoDescription"></p>
+                <div>
+                    <img id="stepTwoImage" src='./public/images/step-two.png' alt=""/>
+                </div>
+                <span id="stepTwoButton" class="stepButton"></span>
+            </div>
+        </div>
+        <div class="onboarding-content-container-last hidden">
+            <div class="onboarding-step-last-container">
+                <img id="stepLastImage" src='./public/images/step-two.png' alt=""/>
+                <p id="stepLastDescription"></p>
+                <span id="stepLastButton" class="stepButton"></span>
+            </div>
+        </div>
+    </body>
+</html>

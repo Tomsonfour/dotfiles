@@ -1,0 +1,292 @@
+{
+  "_extensionName": "Pepper | Shoppen en besparen",
+  "_extensionDescription": "Zoek niet langer naar kortingen! Pepper vindt de beste voor jou.",
+  "_extensionMetaDesc": "",
+  "common": {
+    "privacy-policy": {
+      "link": "Privacybeleid",
+      "text": "Pepper identificeert alleen URL's van partnerwebsites om je kortingen aan te bieden wanneer je aankopen doet. Bezoek voor meer informatie onze"
+    },
+    "cookie-link": "cookiebeleid"
+  },
+  "page": {
+    "install-success": {
+      "header": "Hé, gefeliciteerd!\nJe browserextensie is klaar voor gebruik",
+      "title": "Probeer Pepper nu!",
+      "description": "Kies hieronder een winkel en kijk zelf hoe het werkt. 👇",
+      "document": {
+        "title": "Installeren｜Pepper"
+      }
+    },
+    "privacy": {
+      "header": "Je privacy. Je rechten, en dat is het.",
+      "check-list": {
+        "personal-info": "We zullen nooit je adressen, transacties, saldo's of andere persoonlijke gegevens verzamelen.",
+        "sell-data": "We zullen je gegevens nooit aan iemand verkopen."
+      },
+      "cookie": {
+        "title": "Cookie instellingen",
+        "description": "Analytische cookies worden gebruikt om te begrijpen hoe bezoekers omgaan met de extensie: Aantal bezoekers, verkeersbron, enz. Je kunt jouw toestemming altijd wijzigen of intrekken via de instellingenpagina. Ga voor meer informatie naar ons",
+        "link": "",
+        "button": {
+          "no": "Nee, bedankt",
+          "yes": "Ja, ik ga akkoord"
+        }
+      },
+      "document": {
+        "title": "Privacy｜Pepper"
+      }
+    },
+    "settings": {
+      "configurations": {
+        "title": "Instellingen",
+        "description": "Verbeterde zoekmachineresultaten",
+        "enable-serp": "Beschikbare couponcodes weergeven in Google-resultaten"
+      },
+      "privacy-policy": {
+        "title": "Privacy",
+        "enable-analytics": "Sta analytische cookies toe. Deze worden gebruikt om te begrijpen hoe bezoekers omgaan met de extensie: Aantal bezoekers, verkeersbron, enz. Ga voor meer informatie naar ons"
+      },
+      "links": {
+        "title": "Links",
+        "extension-store": "Beoordeel de Pepper extensie",
+        "send-email": "Hulp nodig? Contacteer ons",
+        "mail-to": "",
+        "visit-web-site": "Over Pepper.com",
+        "terms-conditions": "Algemene voorwaarden"
+      },
+      "document": {
+        "title": "Instellingen｜Pepper"
+      },
+      "hidden-merchants": "Extensie momenteel verborgen op websites"
+    }
+  },
+  "alert": {
+    "caa": {
+      "cupon-detection": {
+        "title_one": "{{count}} kortingscode gevonden!",
+        "title_other": "{{count}} kortingscodes gevonden!",
+        "description": "Pepper past automatisch de beste coupon toe in je winkelwagen",
+        "action-button": "Codes toepassen",
+        "title_few": "",
+        "title_many": ""
+      },
+      "testing": {
+        "progress": {
+          "title": "Pepper past alle beschikbare codes toe op je aankoop",
+          "text": "{{currentCouponIndex}} van de {{totalCouponsCount}} kortingscodes",
+          "text-found-best-coupon": "Wow! Je hebt {{savedAmount}} bespaard"
+        },
+        "failure": {
+          "title": "We hebben alle kortingscodes geprobeerd en je hebt nu al de beste prijs! ",
+          "action-button": "Verder winkelen"
+        },
+        "success": {
+          "title": "Je hebt {{amount}}  bespaard met de code <span class=\"gsg-extension-dialog__inline-code gsg-extension-dialog__chip\">{{code}}</span>",
+          "sub-title": "We hebben alle kortingscodes voor je geprobeerd",
+          "price": "Normale prijs:",
+          "price-after": "Prijs met Pepper:",
+          "action-button": "DOORGAAN NAAR KASSA",
+          "rate-us": "Vind je de extensie leuk?",
+          "rate-us-link": "Klik om een review achter te laten"
+        },
+        "leadgen-cashback": {
+          "title": {
+            "sephora": "",
+            "aliexpress": "",
+            "myprotein": "",
+            "ebay": "",
+            "docmorris": ""
+          },
+          "description": "",
+          "action-button": ""
+        }
+      }
+    },
+    "cay": {
+      "voucher": {
+        "details": "Voorwaarden",
+        "expiration": "Verloopt",
+        "reveal_button": "Bekijk code",
+        "copied": "Gekopieerd",
+        "copy": "Kopieer"
+      },
+      "vouchers": {
+        "title_few": "",
+        "title_many": "",
+        "title_one": "{{count}} kortingscode gevonden!",
+        "title_other": "{{count}} kortingscodes gevonden!\n\n "
+      },
+      "deals": {
+        "title_few": "",
+        "title_many": "",
+        "title_one": "{{count}} aanbieding gevonden!",
+        "title_other": "{{count}} aanbiedingen gevonden!",
+        "price-free": "Gratis",
+        "search": "Zoek…"
+      },
+      "empty-page": "Geen {{type}} gevonden voor {{merchantName}}",
+      "footer": {
+        "vouchers": {
+          "title_few": "",
+          "title_many": "Kortingscodes",
+          "title_one": "Kortingscode",
+          "title_other": "Kortingscodes"
+        },
+        "deals": {
+          "title_one": "Aanbieding",
+          "title_few": "",
+          "title_many": "Aanbiedingen",
+          "title_other": "Aanbiedingen"
+        }
+      },
+      "options": {
+        "title": "Bespaar geld in één klik",
+        "description": "Pepper past automatisch de beste coupon toe in je winkelwagen",
+        "button": "Codes toepassen",
+        "show-vouchers": "Toon me alle kortingscodes"
+      },
+      "feedback-banner": {
+        "content": ""
+      },
+      "empty-page_male": "",
+      "empty-page_female": ""
+    },
+    "notification": {
+      "vouchers": {
+        "title_one": "{{count}} kortingscode gevonden!",
+        "title_few": "",
+        "title_many": "",
+        "title_other": "{{count}} kortingscodes gevonden!",
+        "description": "De beste wordt automatisch toegevoegd aan je winkelwagen."
+      },
+      "deals": {
+        "title_one": "{{count}} aanbieding gevonden!",
+        "title_few": "",
+        "title_many": "",
+        "title_other": "{{count}} aanbiedingen gevonden!",
+        "more": "Bekijk alle deals",
+        "description": "Geweldige deals gedeeld door onze community wachten op jou."
+      },
+      "hide": {
+        "title": "Ik wil de extensie verbergen op {{merchantName}}",
+        "once": "Voor 1 dag",
+        "always": "Altijd"
+      }
+    }
+  },
+  "onboarding-tooltips": {
+    "notification": {
+      "title": "Mis nooit meer een aanbieding",
+      "description": "De Pepper-extensie brengt je automatisch op de hoogte van beschikbare kortingen wanneer je een website bezoekt.",
+      "action-button": "Let’s go",
+      "hide": {
+        "title-once": "Pepper verschijnt tot morgen niet meer op deze website.",
+        "description": "Je kunt de extensie altijd weer inschakelen via de instellingen door op het Pepper logo te klikken in je browser.",
+        "action": "OK",
+        "title-always": "Pepper zal niet langer op deze website verschijnen"
+      }
+    },
+    "caa": {
+      "title": "Bespaar met één klik",
+      "description": "Test en pas de beste codes toe met slechts één klik op deze knop.",
+      "action-button": ""
+    },
+    "cay": {
+      "action-button": "",
+      "vouchers": {
+        "title": "Bespaar tijd zonder gedoe!",
+        "description": "Om een coupon te kopiëren, onthul je gewoon de code en klik je op de knop \"Kopiëren\" ernaast.  Wil je meer weten over de voorwaarden? Klik dan op \"Voorwaarden\".",
+        "action-button": "Ik snap het!"
+      },
+      "deals": {
+        "title": "Bekijk de deals",
+        "description": "Geweldige deals gedeeld door onze community wachten op je. Je kunt eenvoudig op het tabblad Deals klikken om te zien wat er beschikbaar is.",
+        "action-button": "Ik snap het!"
+      }
+    },
+    "side-button": {
+      "title": "Snel toegang tot kortingen",
+      "description": "Klik op de knop om snel naar de lijst met beschikbare kortingen te gaan voor de winkel waar je shopt.",
+      "action-button": "Ik snap het!"
+    }
+  },
+  "extension-window": {
+    "title": "Bespaar geld op al jouw online aankopen!",
+    "description": "Pepper test automatisch de beste coupon en past deze met één klik toe op jouw winkelwagen.",
+    "how-it-works": {
+      "title": "Hoe werkt het?",
+      "item-1": "De Pepper extensie verschijnt op de winkelwagen-pagina van de verkoper als er kortingscodes beschikbaar zijn.",
+      "item-2": "Klik vervolgens op de knop Test Codes om Pepper de codes automatisch voor je te laten testen.",
+      "item-3": "De extensie past de meest interessante promotiecode toe op je winkelwagen."
+    },
+    "help-us": {
+      "title": "Help onze extensie te verbeteren",
+      "description": "We hopen dat je geniet van onze extensie. Als je een momentje hebt, deel dan je feedback om ons te helpen verbeteren. Bedankt! Team Pepper",
+      "action-button": "Feedback plaatsen"
+    },
+    "leadgen-cashback": {
+      "title": "",
+      "description": "",
+      "description-2": "",
+      "action-button": ""
+    },
+    "empty_page": {
+      "search_on_retailer": "Mijn zoekopdracht uitbreiden"
+    }
+  },
+  "side-button": {
+    "tooltip": {
+      "action-1-start": "Sleep",
+      "action-1-end": "om te verplaatsen",
+      "action-2-start": "Klik",
+      "action-2-end": "om te openen"
+    }
+  },
+  "serp": {
+    "vouchers": {
+      "title_one": "{{count}} kortingscode",
+      "title_few": "",
+      "title_many": "",
+      "title_other": "{{count}} kortingscodes"
+    },
+    "deals": {
+      "title_one": "{{count}} deal",
+      "title_few": "",
+      "title_many": "",
+      "title_other": "{{count}} deals"
+    }
+  },
+  "onboarding-title": "Volg de onderstaande stappen om de Pepper-extensie te installeren:",
+  "onboarding-step-one-title": "Stap 1",
+  "onboarding-step-one-description": "Activeer eerst de extensie in de Safari-instellingen door de optie voor Pepper te selecteren.",
+  "onboarding-step-one-button": "Ga naar instellingen",
+  "onboarding-step-two-title": "Stap 2",
+  "safari": {
+    "onboarding-step-two-description": "Klik op het pictogram van de Pepper-extensie en selecteer",
+    "onboarding-step-two-sub-description": "\"Altijd toestaan op elke website\""
+  },
+  "onboarding-step-two-button": "Ga terug naar Safari",
+  "onboarding-last-title": "Laatste stap voor gebruik van Pepper",
+  "cay": {
+    "sort-coupon": {
+      "deals": {
+        "title": {
+          "most-relevant": "",
+          "most-relevant-count": "",
+          "all-count": "",
+          "other-count": ""
+        },
+        "status": {
+          "intro": "",
+          "loading": "",
+          "no-result": ""
+        },
+        "action": {
+          "sort-again": "",
+          "sort": ""
+        }
+      }
+    }
+  }
+}

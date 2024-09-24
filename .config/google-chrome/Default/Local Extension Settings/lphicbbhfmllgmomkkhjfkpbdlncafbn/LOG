@@ -1,0 +1,57 @@
+2024/08/20-19:36:00.354 9eda Reusing MANIFEST /home/tommy/.config/google-chrome/Default/Local Extension Settings/lphicbbhfmllgmomkkhjfkpbdlncafbn/MANIFEST-000001
+2024/08/20-19:36:00.354 9eda Recovering log #588
+2024/08/20-19:36:00.393 9eda Reusing old log /home/tommy/.config/google-chrome/Default/Local Extension Settings/lphicbbhfmllgmomkkhjfkpbdlncafbn/000588.log 
+2024/08/20-20:39:11.343 9ecf Level-0 table #593: started
+2024/08/20-20:39:11.371 9ecf Level-0 table #593: 978559 bytes OK
+2024/08/20-20:39:11.377 9ecf Delete type=0 #588
+2024/08/20-20:53:15.511 9ece Compacting 1@1 + 1@2 files
+2024/08/20-20:53:15.538 9ece Generated table #594@1: 21 keys, 262007 bytes
+2024/08/20-20:53:15.538 9ece Compacted 1@1 + 1@2 files => 262007 bytes
+2024/08/20-20:53:15.544 9ece compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/20-20:53:15.545 9ece Delete type=2 #590
+2024/08/20-20:53:15.545 9ece Delete type=2 #593
+2024/08/20-22:49:11.498 9ece Level-0 table #596: started
+2024/08/20-22:49:11.532 9ece Level-0 table #596: 978685 bytes OK
+2024/08/20-22:49:11.537 9ece Delete type=0 #592
+2024/08/20-23:04:10.785 9ece Compacting 1@1 + 1@2 files
+2024/08/20-23:04:10.826 9ece Generated table #597@1: 21 keys, 261944 bytes
+2024/08/20-23:04:10.826 9ece Compacted 1@1 + 1@2 files => 261944 bytes
+2024/08/20-23:04:10.830 9ece compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/20-23:04:10.830 9ece Delete type=2 #594
+2024/08/20-23:04:10.830 9ece Delete type=2 #596
+2024/08/21-00:59:12.658 9ecf Level-0 table #599: started
+2024/08/21-00:59:12.702 9ecf Level-0 table #599: 978663 bytes OK
+2024/08/21-00:59:12.708 9ecf Delete type=0 #595
+2024/08/21-01:14:10.749 9ece Compacting 1@1 + 1@2 files
+2024/08/21-01:14:10.778 9ece Generated table #600@1: 21 keys, 261941 bytes
+2024/08/21-01:14:10.778 9ece Compacted 1@1 + 1@2 files => 261941 bytes
+2024/08/21-01:14:10.786 9ece compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/21-01:14:10.787 9ece Delete type=2 #597
+2024/08/21-01:14:10.787 9ece Delete type=2 #599
+2024/08/21-03:09:11.432 9ecf Level-0 table #602: started
+2024/08/21-03:09:11.472 9ecf Level-0 table #602: 978645 bytes OK
+2024/08/21-03:09:11.479 9ecf Delete type=0 #598
+2024/08/21-03:24:10.703 9ecf Compacting 1@1 + 1@2 files
+2024/08/21-03:24:10.718 9ecf Generated table #603@1: 21 keys, 261939 bytes
+2024/08/21-03:24:10.718 9ecf Compacted 1@1 + 1@2 files => 261939 bytes
+2024/08/21-03:24:10.722 9ecf compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/21-03:24:10.722 9ecf Delete type=2 #600
+2024/08/21-03:24:10.722 9ecf Delete type=2 #602
+2024/08/21-05:19:11.381 9ecf Level-0 table #605: started
+2024/08/21-05:19:11.421 9ecf Level-0 table #605: 978617 bytes OK
+2024/08/21-05:19:11.427 9ecf Delete type=0 #601
+2024/08/21-05:34:10.859 9ece Compacting 1@1 + 1@2 files
+2024/08/21-05:34:10.894 9ece Generated table #606@1: 21 keys, 261948 bytes
+2024/08/21-05:34:10.894 9ece Compacted 1@1 + 1@2 files => 261948 bytes
+2024/08/21-05:34:10.898 9ece compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/21-05:34:10.898 9ece Delete type=2 #603
+2024/08/21-05:34:10.899 9ece Delete type=2 #605
+2024/08/21-07:29:12.287 9ece Level-0 table #608: started
+2024/08/21-07:29:12.323 9ece Level-0 table #608: 978538 bytes OK
+2024/08/21-07:29:12.327 9ece Delete type=0 #604
+2024/08/21-07:44:10.705 9ece Compacting 1@1 + 1@2 files
+2024/08/21-07:44:10.738 9ece Generated table #609@1: 21 keys, 261943 bytes
+2024/08/21-07:44:10.738 9ece Compacted 1@1 + 1@2 files => 261943 bytes
+2024/08/21-07:44:10.742 9ece compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/21-07:44:10.742 9ece Delete type=2 #606
+2024/08/21-07:44:10.742 9ece Delete type=2 #608

@@ -1,0 +1,151 @@
+{
+   "checksum": "8464aeff5025d4b2c7f9957495b6c9d4",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13279235991000000",
+            "date_last_used": "0",
+            "guid": "7064e700-9cc1-421e-8b3c-5a3a8d247b0f",
+            "id": "5",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13355050164000000",
+            "date_last_used": "0",
+            "guid": "2bd29401-e95e-4af6-a960-151e8d2cc2df",
+            "id": "6",
+            "name": "Messenger",
+            "type": "url",
+            "url": "https://www.messenger.com/t/6368315433259915/"
+         }, {
+            "date_added": "13321895372000000",
+            "date_last_used": "13368808672454878",
+            "guid": "dcaf336a-5ce0-4e82-980b-85353f931b3e",
+            "id": "7",
+            "name": "Home - Chess.com",
+            "type": "url",
+            "url": "https://www.chess.com/home"
+         }, {
+            "date_added": "13355081472000000",
+            "date_last_used": "0",
+            "guid": "d55b3ca1-8691-45a0-a57b-347447dc022a",
+            "id": "8",
+            "name": "GitHub Dashboard",
+            "type": "url",
+            "url": "https://github.com/dashboard"
+         }, {
+            "children": [ {
+               "date_added": "13310661719000000",
+               "date_last_used": "0",
+               "guid": "151ddee7-7aa5-432e-831e-3182b347e92c",
+               "id": "10",
+               "name": "eKursy Politechniki Poznańskiej",
+               "type": "url",
+               "url": "https://ekursy.put.poznan.pl/"
+            }, {
+               "date_added": "13313763138000000",
+               "date_last_used": "0",
+               "guid": "e9b7252d-da22-4d7e-909e-e711304c5c97",
+               "id": "11",
+               "name": "Zimbra: Skrzynka odbiorcza (22)",
+               "type": "url",
+               "url": "https://poczta.student.put.poznan.pl/zimbra/mail#1"
+            }, {
+               "date_added": "13313601858000000",
+               "date_last_used": "0",
+               "guid": "eb3d2bd2-4565-4f5d-a2ff-6b07bd3b4397",
+               "id": "12",
+               "name": "Dysk PP Inf '19 – Dysk Google",
+               "type": "url",
+               "url": "https://drive.google.com/drive/u/0/folders/14LmtMChFXshRmYoOHDDeYG6vQXbdoMC3"
+            }, {
+               "date_added": "13317505518000000",
+               "date_last_used": "0",
+               "guid": "c6b1bc12-4ae4-404c-84cc-3e6868c3b4f6",
+               "id": "13",
+               "name": "Na skróty - MÓJ USOSWEB - USOSweb",
+               "type": "url",
+               "url": "https://usosweb.put.poznan.pl/kontroler.php?_action=home%2Findex"
+            }, {
+               "date_added": "13355050257000000",
+               "date_last_used": "0",
+               "guid": "e1fed433-c1c7-432d-a088-63ec3641ed2f",
+               "id": "14",
+               "name": "L7",
+               "type": "url",
+               "url": "https://calendar.google.com/calendar/u/0/embed?src=d21f7a5e90fa39205b076349aea3d974388e8d736d9328aa0d1092c791177cdf@group.calendar.google.com&ctz=Europe/Warsaw&fbclid=IwAR1XDQdPFZtET-yBbMHa2y8AWgAn2Y9oA8CkhjV2D69gkpkdy6TKQ6c38hc&pli=1"
+            }, {
+               "date_added": "13355520402000000",
+               "date_last_used": "0",
+               "guid": "4d102897-a4b8-4e18-89a2-d1944ce2a8f9",
+               "id": "15",
+               "name": "Algorytmy i struktury danych | Marta Szachniuk home page",
+               "type": "url",
+               "url": "https://www.cs.put.poznan.pl/mszachniuk/site/teaching/algorytmy-i-struktury-danych/"
+            } ],
+            "date_added": "13368376499685546",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "dfc31f27-d880-4395-b5f0-d5f4d49abf76",
+            "id": "9",
+            "name": "studia",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13344263649000000",
+                  "date_last_used": "0",
+                  "guid": "44e08d6c-a694-4baf-9287-31775cb9d35c",
+                  "id": "18",
+                  "name": "overwolf.streaming API | Overwolf",
+                  "type": "url",
+                  "url": "https://overwolf.github.io/api/streaming#streamencoderpreset_nvidia-enum"
+               } ],
+               "date_added": "13368376499685850",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "9896d69b-6080-4d65-a2bf-8172fb6bf786",
+               "id": "17",
+               "name": "Other bookmarks",
+               "type": "folder"
+            } ],
+            "date_added": "13368376499685824",
+            "date_last_used": "0",
+            "date_modified": "13368376499685824",
+            "guid": "9ea3d198-9844-4ca5-9206-8919c92158e3",
+            "id": "16",
+            "name": "Imported from Google Chrome Person 1.",
+            "type": "folder"
+         } ],
+         "date_added": "13368376417139465",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13368376417139467",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13368376417139469",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

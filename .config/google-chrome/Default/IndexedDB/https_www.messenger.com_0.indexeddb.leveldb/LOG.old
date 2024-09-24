@@ -1,0 +1,6 @@
+2024/07/15-13:06:39.141 a94 Reusing MANIFEST /home/tommy/.config/google-chrome/Default/IndexedDB/https_www.messenger.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/15-13:06:39.141 a94 Recovering log #3
+2024/07/15-13:06:39.225 a94 Reusing old log /home/tommy/.config/google-chrome/Default/IndexedDB/https_www.messenger.com_0.indexeddb.leveldb/000003.log 
+2024/07/15-13:06:41.884 a93 Level-0 table #5: started
+2024/07/15-13:06:41.991 a93 Level-0 table #5: 1547964 bytes OK
+2024/07/15-13:06:41.999 a93 Delete type=0 #3

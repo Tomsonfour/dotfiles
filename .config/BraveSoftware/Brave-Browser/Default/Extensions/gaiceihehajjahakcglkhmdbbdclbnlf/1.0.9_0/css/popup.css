@@ -1,0 +1,138 @@
+body {
+  min-width: 352px;
+  margin: 24px;
+  background-color: #fef4f5;
+  font-family: 'Nunito';
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .app-sp-contrl__icon-settings {
+  cursor: pointer;
+  /* margin-right: 18px; */
+}
+
+.app-sp-contrl__logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.app-sp-contrl__logo-wrapper span {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  color: #232329;
+  margin-left: 12px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+
+main .app-sp-contrl__block {
+  width: 168px;
+  height: 168px;
+  background: #ffffff;
+  border-radius: 24px;
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main .app-sp-contrl__enabled-popup-img {
+  background-image: url(../assets/hedgehog_enabled.svg);
+}
+
+main .app-sp-contrl__disabled-popup-img {
+  background-image: url(../assets/hedgehog_disabled.svg);
+}
+
+main .app-sp-contrl__enabled-popup-data,
+main .app-sp-contrl__disabled-popup-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .app-sp-contrl__enabled-popup-data h3,
+main .app-sp-contrl__disabled-popup-data h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: #232329;
+  margin: 0;
+}
+
+main .app-sp-contrl__enabled-popup-data p,
+main .app-sp-contrl__disabled-popup-data p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #68687b;
+  margin: 16px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(150, 190, 206, 0.3);
+  margin: 0.6em 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: #fff;
+  user-select: none;
+  width: 352px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  background: #f52d3b;
+  border-radius: 1000px;
+  cursor: pointer;
+  background-position: 36% center;
+  background-repeat: no-repeat;
+}
+
+button#enable {
+  background-image: url('../assets/triangle.svg');
+  margin-bottom: 8px;
+}
+
+button#disable {
+  background-image: url('../assets/rectangle.svg');
+  margin-bottom: 8px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: flex !important;
+}
+
+button#feedback {
+  background: #fdd5d8;
+  background-image: url('../assets/like.svg');
+  background-position: 32% center;
+  background-repeat: no-repeat;
+  color: #f52d3b;
+  margin-top: 8px;
+}
+p#status {
+  margin: 0;
+  text-align: center;
+}

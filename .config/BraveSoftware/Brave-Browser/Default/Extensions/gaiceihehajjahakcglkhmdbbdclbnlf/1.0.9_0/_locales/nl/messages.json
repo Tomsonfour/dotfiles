@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Snelheidsregelaar voor HTML5-video's. Beheer videosnelheid, versnel met afspelen met videosnelheid. Controle van de videosnelheid."
+   },
+   "name": {
+      "message": "Video snelheidsregelaar"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

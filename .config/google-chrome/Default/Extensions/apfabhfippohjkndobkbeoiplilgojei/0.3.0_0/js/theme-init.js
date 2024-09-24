@@ -1,0 +1,1 @@
+'use strict';const params=new URLSearchParams(document.location.search),theme=params.get("theme");if("light"==theme||"dark"==theme)document.querySelector("link#theme-override").href=`css/${theme}.css`;

@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Kontroler prędkości dla filmów HTML5. Zarządzaj szybkością wideo, przyspiesz za pomocą szybkiego odtwarzania wideo. Kontrola prędkości wideo."
+   },
+   "name": {
+      "message": "Kontrola prędkości wideo"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}
