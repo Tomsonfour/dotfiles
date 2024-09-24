@@ -140,5 +140,9 @@ alias spotify="spotify --enable-features=UseOzonePlatform, WaylandWindowDecorati
 
 alias cls=clear
 
+
 export LC_ALL=en_US.UTF-8  
 export LANG=en_US.UTF-8
+export LD_LIBRARY_PATH=/home/tommy/.local/lib/arch-mojo:$LD_LIBRARY_PATH
+export MODULAR_HOME="/home/tommy/.modular"
+export PATH="/home/tommy/.modular/pkg/packages.modular.com_max/bin:$PATH"
