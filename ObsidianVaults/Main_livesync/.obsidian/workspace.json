@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "f7b3c4a03a1d6c94",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad9f47c15ef40bda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f701da54c0db33d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERSONAL/meta/my obsidian setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a623b4504727a7a9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f6d4dc4375aec17",
+    "type": "split",
+    "children": [
+      {
+        "id": "710cba3e1ebd4a59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3fc0db29ac10a0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2d2da631d8072c09",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8259e6c1e4d6d0dc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "76261542b004d813",
+    "type": "split",
+    "children": [
+      {
+        "id": "823dacf7f9b09e8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fdea713c2033d6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PROGRAMMING/LINUX/Nvim/My nvim setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "56896cd8f05a3c23",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PROGRAMMING/LINUX/Nvim/My nvim setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a9cc7826ec651a3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4bf9b4ccb77a541b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PROGRAMMING/LINUX/Nvim/My nvim setup.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-livesync:Replicate": false,
+      "obsidian-livesync:Show log": false,
+      "obsidian-livesync:Show Customization sync": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "handwritten-notes:Create empty handwritten note": false,
+      "obsidian-rich-links:Rich Links": false,
+      "notion-like-tables:Create loom": false
+    }
+  },
+  "active": "a623b4504727a7a9",
+  "lastOpenFiles": [
+    "PERSONAL/meta/my obsidian setup.md",
+    "PROGRAMMING/LINUX/Nvim/My nvim setup.md",
+    "DATA/daily notes/19-09-2024.md",
+    "PROGRAMMING/LINUX/Nvim/Pasted image 20240919152111.png",
+    "DATA/Excalidraw/scribble for linux 2024-03-14 11.05.25.excalidraw.md",
+    "PROGRAMMING/PROJECTS/scribble for linux/scribble for linux.md",
+    "PERSONAL/Podróże/czechy sierpien 2024.md",
+    "Untitled.loom",
+    "PERSONAL/Podróże/Amsterdam.md",
+    "DATA/daily notes/22-08-2024.md",
+    "DATA/daily notes/2024-08-20.md",
+    "DATA/daily notes/21-08-2024.md",
+    "PROGRAMMING/LINUX/Nvim/Where find icons.md",
+    "DATA/daily notes/template.md",
+    "PROGRAMMING/LINUX/Nvim/which-key.md",
+    "DATA/daily notes/20-08-2024.md",
+    "2024-08-20 obsolete keybindings.md",
+    "Daily notes/2024-07-14.md",
+    "Pasted Image 20240609173106_884.png",
+    "Pasted image 20240820193545.png",
+    "Pasted image 20240820193631.png",
+    "Pasted image 20240820193716.png",
+    "Pasted image 20240820193546.png",
+    "Pasted image 20240820193546 2.png",
+    "Pasted image 20240820193546 1.png",
+    "PROGRAMMING/LINUX/Tmux.md",
+    "PROGRAMMING/LINUX/Vim/Vim tutorial.md",
+    "DATA/temps/Daily_notes.template.md",
+    "Daily notes/2024-08-18.md",
+    "PROGRAMMING/LINUX/Vim/nvim.md",
+    "Daily notes/2024-08-17.md",
+    "Daily notes/2024-08-02.md",
+    "PROGRAMMING/LINUX/Foot Terminal.md",
+    "Daily notes/2024-08-01.md",
+    "Daily notes/2024-07-15.md",
+    "PROGRAMMING/PROJECTS/scribble for linux",
+    "PROGRAMMING/LINUX/file system",
+    "Ink/Writing/2024.7.13 - 1.09am.writing",
+    "Ink/Writing",
+    "Ink",
+    "handwritten-notes/test.pdf",
+    "handwritten-notes",
+    "PROGRAMMING/LINUX/Nvim",
+    "Daily notes",
+    "DATA/pasted_images/Pasted Image 20240623232138_605.png",
+    "DATA/pasted_images/Pasted Image 20240623232108_603.png",
+    "PROGRAMMING/PROJECTS/valkill/valkill_model.canvas",
+    "PROGRAMMING/PROJECTS/obsidian plugins/jupyter integration project/make repo public todo.canvas",
+    "PROGRAMMING/PROJECTS/obsidian plugins/jupyter integration project/jupyter_integration.canvas",
+    "PROGRAMMING/PROJECTS/ffmpeg_replays/Untitled.canvas",
+    "PROGRAMMING/PROJECTS/valkill/Collect data val.canvas",
+    "PROGRAMMING/PROJECTS/replay buffer.canvas",
+    "DATA/Untitled.canvas",
+    "PROGRAMMING/PROJECTS/valkill/val canvas.canvas",
+    "PROGRAMMING/PROJECTS/valkill/Main.canvas",
+    "PROGRAMMING/PROJECTS/obsidian plugins/jupyter integration project/jupyter_integration 1.canvas"
+  ]
+}

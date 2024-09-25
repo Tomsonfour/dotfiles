@@ -1,0 +1,6 @@
+{
+  "folder": "DATA/daily notes",
+  "autorun": false,
+  "template": "DATA/temps/Daily_notes.template",
+  "format": "DD-MM-YYYY"
+}
