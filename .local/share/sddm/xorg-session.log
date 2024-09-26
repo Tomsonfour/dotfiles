@@ -1,0 +1,3 @@
+Failed to connect to bus: No medium found
+dbus-update-activation-environment: error: unable to connect to D-Bus: Using X11 for dbus-daemon autolaunch was disabled at compile time, set your DBUS_SESSION_BUS_ADDRESS instead
+/home/tommy/.xsession:1: command not found: linuxflip

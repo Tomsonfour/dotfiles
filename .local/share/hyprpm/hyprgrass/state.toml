@@ -1,0 +1,10 @@
+[hyprgrass]
+enabled = true
+failed = false
+filename = 'hyprgrass.so'
+
+[repository]
+hash = '736119f828eecaed2deaae1d6ff1f50d6dabaaba'
+name = 'hyprgrass'
+rev = ''
+url = 'https://github.com/horriblename/hyprgrass'

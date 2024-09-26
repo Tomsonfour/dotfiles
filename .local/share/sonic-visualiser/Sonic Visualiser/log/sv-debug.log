@@ -1,0 +1,260 @@
+[194639]/0: Debug log started at Wed Jun 19 23:25:40 2024
+[194639]/0: System language is: en_US
+[194639]/87: HelperExecPath::search(vamp-plugin-load-checker): dirs = /usr/bin/../lib/sonic-visualiser,/usr/bin/../lib/Sonic Visualiser,/usr/bin/helpers,/usr/bin, tags = 64,,32,translated
+[194639]/87: PluginPathSetter: for environment variable VAMP_PATH, useEnvVariable setting is true or variable is currently unset; changing value from "" to setting preference of "/home/tommy/vamp:/home/tommy/.vamp:/usr/local/lib/vamp:/usr/lib/vamp"
+[194639]/87: PluginPathSetter: for environment variable LADSPA_PATH, useEnvVariable setting is true or variable is currently unset; changing value from "" to setting preference of "/home/tommy/ladspa:/home/tommy/.ladspa:/usr/local/lib/ladspa:/usr/lib/ladspa"
+[194639]/87: PluginPathSetter: for environment variable DSSI_PATH, useEnvVariable setting is true or variable is currently unset; changing value from "" to setting preference of "/home/tommy/dssi:/home/tommy/.dssi:/usr/local/lib/dssi:/usr/lib/dssi"
+[194639]/100: Loading qt_en_US... Failed
+Failed to load Qt translation for locale
+[194639]/100: Loading sonic-visualiser_en_US... Done
+[194639]/100: Note: SSL library build version is: OpenSSL 3.3.0 9 Apr 2024
+[194639]/100: MainWindowBase::MainWindowBase
+[194639]/109: MainWindowBase: Creating view manager
+[194639]/109: MainWindowBase: Calculating view font size
+[194639]/109: MainWindowBase: View font size is 9
+[194639]/109: MainWindowBase: Creating play source
+[194639]/140: MainWindowBase: Creating record target
+[194639]/142: MainWindowBase: Creating labeller
+[194639]/142: MainWindowBase: Creating MIDI input
+[194639]/145: MIDIInput: Available ports are:
+[194639]/145: 0. Midi Through 14:0
+[194639]/145: MIDIInput: Using first port ("Midi Through 14:0")
+[194639]/145: MainWindowBase: Constructor done
+[194639]/147: MainWindow: Release 4.5.2 : Release configuration, 64-bit build
+[194639]/147: MainWindow: Creating main user interface layout
+[194639]/147: ViewManager::scalePixelSize: ratio is 1.26667 (em = 19)
+[194639]/151: View::scaleSize: ratio is 1.26667 (em = 19)
+[194639]/151: MainWindow::coloursChanged: haveDarkBackground = 1, highlight = #12608a, nearestIndex = 8, defaultColourName = Bright Blue, colour = #1e96ff, index = 8
+[194639]/151: MainWindow: Creating menus and toolbars
+[194639]/151: MainWindow::setupMenus
+[194639]/151: MainWindow::setupFileMenu
+[194639]/156: MainWindow::setupRecentFilesMenu
+[194639]/162: MainWindow::setupTemplatesMenu
+[194639]/164: MainWindow::setupEditMenu
+[194639]/172: MainWindow::setupViewMenu
+[194639]/185: MainWindow::setupPaneAndLayerMenus
+[194639]/222: MainWindow::setupExistingLayersMenus
+[194639]/222: MainWindowBase::finaliseMenus called
+[194639]/222: MainWindowBase::finaliseMenus done
+[194639]/222: MainWindow::prepareTransformsMenu
+[194639]/222: MainWindow::prepareTransformsMenu: Starting installed-transform population thread
+[194639]/222: MainWindow::setupMenus: done
+[194639]/222: MainWindow::setupToolbars
+[194639]/274: MainWindow::setupHelpMenu
+[194639]/287: MainWindowBase::finaliseMenus called
+[194639]/287: MainWindowBase::finaliseMenus done
+[194639]/287: MainWindow: Creating new session
+[194639]/287: MainWindow::updateMenuStates
+[194639]/287: MainWindowBase::stop: suspending
+[194639]/290: WidgetScale::scalePixelSize: baseEm = 15, platform default font height = 19, resulting scale factor = 1.26667
+[194639]/291: MainWindow::updateMenuStates
+[194639]/291: Document::createLayer: Added layer of type 2, now have 1 layers
+[194639]/291: MainWindow::updateMenuStates
+[194639]/291: NOTE: Document::setModel: Layer 0x6221ae471e70 ("Ruler") is already set to model <none>
+[194639]/293: MainWindow::setupExistingLayersMenus
+[194639]/293: MainWindow::updateMenuStates
+[194639]/293: MainWindow::updateMenuStates
+[194639]/293: Document::createLayer: Added layer of type 0, now have 2 layers
+[194639]/293: MainWindow::updateMenuStates
+[194639]/293: NOTE: Document::setModel: Layer 0x6221ade4d2d0 ("Waveform") is already set to model <none>
+[194639]/305: MainWindow::setupExistingLayersMenus
+[194639]/305: MainWindow::updateMenuStates
+[194639]/305: MainWindow::updateMenuStates
+[194639]/305: MainWindow::updateMenuStates
+[194639]/305: MainWindow::updateMenuStates
+[194639]/305: MainWindow: Creating network permission tester
+[194639]/305: NetworkPermissionTester: Asked already, result was 1
+[194639]/305: MainWindow: Starting uninstalled-transform population thread
+[194639]/305: MainWindow: Creating version tester
+[194639]/339: VersionTester: URL is <http://sonicvisualiser.org/latest-version.txt>
+[194639]/346: MainWindow: Constructor done
+[194639]/348: Entering main event loop
+[194639]/375: HelperExecPath::search(vamp-plugin-load-checker): dirs = /usr/bin/../lib/sonic-visualiser,/usr/bin/../lib/Sonic Visualiser,/usr/bin/helpers,/usr/bin, tags = 64,,32,translated
+[194639]/375: NOTE: PluginScan: Found helper: /usr/bin/vamp-plugin-load-checker
+[194639]/385: PluginScan: PluginCandidates: Read version string from helper: 4
+[194639]/385: PluginScan: PluginCandidates: Scanning directory /home/tommy/vamp
+[194639]/385: PluginScan: PluginCandidates: Scanning directory /home/tommy/.vamp
+[194639]/385: PluginScan: PluginCandidates: Scanning directory /usr/local/lib/vamp
+[194639]/385: PluginScan: PluginCandidates: Scanning directory /usr/lib/vamp
+[194639]/385: PluginScan: PluginCandidates: Running helper /usr/bin/vamp-plugin-load-checker with following library list:
+[194639]/385: PluginScan: PluginCandidates: /usr/lib/vamp/vamp-example-plugins.so
+[194639]/385: PluginScan: PluginCandidates: Log callback is set: using separate-channels mode to gather stderr
+[194639]/389: PluginScan: PluginCandidates: Helper /usr/bin/vamp-plugin-load-checker started OK
+[194639]/393: PluginScan: PluginCandidates: Helper completed
+[194639]/393: PluginScan: PluginCandidates: Read output line from helper: SUCCESS|/usr/lib/vamp/vamp-example-plugins.so|
+[194639]/398: PluginScan: PluginCandidates: Read version string from helper: 4
+[194639]/398: PluginScan: PluginCandidates: Scanning directory /home/tommy/ladspa
+[194639]/398: PluginScan: PluginCandidates: Scanning directory /home/tommy/.ladspa
+[194639]/398: PluginScan: PluginCandidates: Scanning directory /usr/local/lib/ladspa
+[194639]/398: PluginScan: PluginCandidates: Scanning directory /usr/lib/ladspa
+[194639]/403: PluginScan: PluginCandidates: Read version string from helper: 4
+[194639]/403: PluginScan: PluginCandidates: Scanning directory /home/tommy/dssi
+[194639]/404: PluginScan: PluginCandidates: Scanning directory /home/tommy/.dssi
+[194639]/404: PluginScan: PluginCandidates: Scanning directory /usr/local/lib/dssi
+[194639]/404: PluginScan: PluginCandidates: Scanning directory /usr/lib/dssi
+[194639]/404: PluginScan::scan complete
+[194639]/404: FeatureExtractionPluginFactory: in-process preference not set, using Piper factory
+[194639]/404: HelperExecPath::search(piper-vamp-simple-server): dirs = /usr/bin/../lib/sonic-visualiser,/usr/bin/../lib/Sonic Visualiser,/usr/bin/helpers,/usr/bin, tags = 64,,32,translated
+[194639]/404: NOTE: PiperVampPluginFactory: Found server: /usr/bin/piper-vamp-simple-server
+[194639]/412: Server /usr/bin/piper-vamp-simple-server reports version number 2
+[194639]/412: PluginScan: helper "/usr/bin/vamp-plugin-load-checker" likes 1 libraries of type vamp
+[194639]/412: PiperVampPluginFactory: Populating from /usr/bin/piper-vamp-simple-server
+[194639]/412: INFO: Have 1 candidate Vamp plugin libraries from scanner
+[194639]/412: INFO: For tag "" giving library vamp-example-plugins
+[194639]/416: PiperVampPluginFactory: Server process /usr/bin/piper-vamp-simple-server started OK
+[194639]/427: PiperVampPluginFactory: Piper server stderr output follows:
+Found type <http://purl.org/ontology/af/ZeroCrossingCount> for output "counts" of plugin "zerocrossing" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/ZeroCrossing> for output "zerocrossings" of plugin "zerocrossing" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/LinearFrequencyCentroid> for output "linearcentroid" of plugin "spectralcentroid" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/LogFrequencyCentroid> for output "logcentroid" of plugin "spectralcentroid" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/OnsetDetectionFunction> for output "detectionfunction" of plugin "percussiononsets" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/Onset> for output "onsets" of plugin "percussiononsets" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/Signal> for output "amplitude" of plugin "amplitudefollower" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/Signal> for output "acf" of plugin "fixedtempo" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/Tempo> for output "candidates" of plugin "fixedtempo" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/OnsetDetectionFunction> for output "detectionfunction" of plugin "fixedtempo" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/Signal> for output "filtered_acf" of plugin "fixedtempo" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/Tempo> for output "tempo" of plugin "fixedtempo" in library vamp-example-plugins
+Found type <http://purl.org/ontology/af/Signal> for output "powerspectrum" of plugin "powerspectrum" in library vamp-example-plugins
+[194639]/427: PiperVampPluginFactory: Piper server stderr output ends
+[194639]/427: PiperVampPluginFactory: server "/usr/bin/piper-vamp-simple-server" lists 6 plugin(s)
+[194639]/427: PiperVampPluginFactory: Server process exited normally
+[194639]/433: PluginScan: helper "/usr/bin/vamp-plugin-load-checker" likes 0 libraries of type dssi
+[194639]/435: PluginScan: helper "/usr/bin/vamp-plugin-load-checker" likes 0 libraries of type ladspa
+[194639]/435: MainWindow::populateTransformsMenu
+[194639]/442: MainWindow::setupRecentTransformsMenu
+[194639]/442: MainWindow::updateMenuStates
+[194639]/442: MainWindow: Creating OSC queue with network port
+[194639]/442: OSCQueue::OSCQueue: Started OSC thread, URL is osc.udp://tommyakali360.home:11723/
+[194639]/445: Finished setting up OSC interface
+[194639]/929: VersionTester: error: http status = 301
+[194639]/1308: PluginRDFIndexer::indexConfiguredURLs
+[194639]/1308: PluginRDFIndexer::indexConfiguredURLs: index url is http://www.vamp-plugins.org/rdf/plugins/index.txt
+[194639]/1308: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/index.txt"
+[194639]/1309: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:51 2024
+[194639]/1309: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/availability
+[194639]/1309: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/availability"
+[194639]/1310: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:51 2024
+[194639]/1310: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/azi
+[194639]/1310: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/azi"
+[194639]/1311: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:51 2024
+[194639]/1330: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/bbc-vamp-plugins
+[194639]/1330: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/bbc-vamp-plugins"
+[194639]/1330: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:51 2024
+[194639]/1335: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/beatroot-vamp
+[194639]/1335: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/beatroot-vamp"
+[194639]/1336: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:51 2024
+[194639]/1337: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/cepstral-pitchtracker
+[194639]/1337: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/cepstral-pitchtracker"
+[194639]/1337: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:51 2024
+[194639]/1338: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/cqvamp
+[194639]/1338: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/cqvamp"
+[194639]/1338: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:51 2024
+[194639]/1341: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/expressive-means
+[194639]/1341: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/expressive-means"
+[194639]/1341: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:52 2024
+[194639]/1354: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/extra-categories
+[194639]/1354: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/extra-categories"
+[194639]/1355: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:52 2024
+[194639]/1357: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/FChT_f0gram
+[194639]/1357: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/FChT_f0gram"
+[194639]/1357: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:52 2024
+[194639]/1359: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/featured
+[194639]/1360: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/featured"
+[194639]/1360: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:52 2024
+[194639]/1360: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/match-vamp-plugin
+[194639]/1360: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/match-vamp-plugin"
+[194639]/1361: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:52 2024
+[194639]/1363: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/mazurka-plugins
+[194639]/1363: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/mazurka-plugins"
+[194639]/1363: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:52 2024
+[194639]/1374: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/mfs
+[194639]/1374: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/mfs"
+[194639]/1375: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:52 2024
+[194639]/1376: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/mir-edu
+[194639]/1376: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/mir-edu"
+[194639]/1377: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:52 2024
+[194639]/1379: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/mtg-melodia
+[194639]/1379: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/mtg-melodia"
+[194639]/1380: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:53 2024
+[194639]/1381: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/mvamp-ibt
+[194639]/1381: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/mvamp-ibt"
+[194639]/1382: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:53 2024
+[194639]/1383: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/mvamp
+[194639]/1383: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/mvamp"
+[194639]/1383: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:53 2024
+[194639]/1385: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/nnls-chroma
+[194639]/1385: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/nnls-chroma"
+[194639]/1386: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:53 2024
+[194639]/1388: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/ofa-vamp-plugin
+[194639]/1388: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/ofa-vamp-plugin"
+[194639]/1389: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:53 2024
+[194639]/1389: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/pyin
+[194639]/1389: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/pyin"
+[194639]/1389: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:53 2024
+[194639]/1392: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/qm-vamp-plugins
+[194639]/1392: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/qm-vamp-plugins"
+[194639]/1392: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:53 2024
+[194639]/1400: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/segmentino
+[194639]/1400: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/segmentino"
+[194639]/1401: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:54 2024
+[194639]/1401: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/silvet
+[194639]/1401: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/silvet"
+[194639]/1402: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:54 2024
+[194639]/1403: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/simple-cepstrum
+[194639]/1403: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/simple-cepstrum"
+[194639]/1404: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:54 2024
+[194639]/1405: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/tempogram
+[194639]/1405: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/tempogram"
+[194639]/1406: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:54 2024
+[194639]/1407: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/tipic
+[194639]/1407: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/tipic"
+[194639]/1408: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:54 2024
+[194639]/1412: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/tuning-difference
+[194639]/1412: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/tuning-difference"
+[194639]/1413: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:54 2024
+[194639]/1414: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/ua-vamp-plugins
+[194639]/1414: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/ua-vamp-plugins"
+[194639]/1415: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:54 2024
+[194639]/1416: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/vamp-aubio
+[194639]/1416: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/vamp-aubio"
+[194639]/1417: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:54 2024
+[194639]/1420: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/vamp-example-plugins
+[194639]/1421: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/vamp-example-plugins"
+[194639]/1421: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:55 2024
+[194639]/1423: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/vamp-hpcp-mtg
+[194639]/1423: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/vamp-hpcp-mtg"
+[194639]/1423: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:55 2024
+[194639]/1426: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/vamp-libxtract
+[194639]/1426: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/vamp-libxtract"
+[194639]/1427: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:55 2024
+[194639]/1434: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/plugins/vamp-onsetsds
+[194639]/1434: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/plugins/vamp-onsetsds"
+[194639]/1434: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:55 2024
+[194639]/1436: PluginRDFIndexer::indexConfiguredURLs: index url is http://www.vamp-plugins.org/rdf/packs/index.txt
+[194639]/1436: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/packs/index.txt"
+[194639]/1436: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:55 2024
+[194639]/1436: PluginRDFIndexer::indexConfiguredURLs: url is http://www.vamp-plugins.org/rdf/packs/vamp-plugin-pack
+[194639]/1436: CachedFile::CachedFile: origin is "http://www.vamp-plugins.org/rdf/packs/vamp-plugin-pack"
+[194639]/1437: CachedFile::check: Valid last retrieval at Tue Jun 18 23:48:55 2024
+[194639]/1444: ERROR: PluginRDFDescription::indexURL: No vamp:identifier for output <<http://vamp-plugins.org/rdf/plugins/mazurka-plugins#mzchronogram_output_>>
+[194639]/1646: MainWindowBase: Hiding splash screen (if not hidden already)
+[194639]/2848: MainWindow::closeEvent
+[194639]/2848: MainWindowBase::stop: suspending
+[194639]/2852: MainWindow::setupExistingLayersMenus
+[194639]/2852: MainWindow::updateMenuStates
+[194639]/2852: MainWindow::updateMenuStates
+[194639]/2854: MainWindow::setupExistingLayersMenus
+[194639]/2854: MainWindow::updateMenuStates
+[194639]/2854: MainWindow::updateMenuStates
+[194639]/2854: MainWindow::updateMenuStates
+[194639]/2854: Document::releaseModel(<none>)
+[194639]/2854: MainWindow::setupExistingLayersMenus
+[194639]/2854: MainWindow::updateMenuStates
+[194639]/2854: Document::releaseModel(<none>)
+[194639]/2854: MainWindow::setupExistingLayersMenus
+[194639]/2854: MainWindow::updateMenuStates
+[194639]/2854: MainWindow::updateMenuStates
+[194639]/2876: TransformFactory::deleteInstance called
+[194639]/2879: MainWindowBase::~MainWindowBase
+[194639]/3001: Debug log ends
