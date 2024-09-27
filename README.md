@@ -40,5 +40,5 @@ sh ./check&install_deps.sh
 ```
 for installing all programs and to configure zsh shell
 
-NOTE !!! 
+## NOTE !!! 
 if something is not working check 'to_install' file and ensure every thing were isnstalled correctly
