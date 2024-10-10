@@ -8,3 +8,5 @@ nvim neovim
 fd fd
 fzf fzf-git
 zsh-autosuggestions zsh-autosuggestions
+tree tree
+lldb lldb

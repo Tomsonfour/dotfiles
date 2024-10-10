@@ -41,7 +41,6 @@ end)
 -- kitty
 -- handle opacity
 os.execute 'bash ~/.config/kitty/change_config.sh background_opacity 1.0 reload'
-
 -- handle colors
 local normal_hl = vim.api.nvim_get_hl(0, {name = "Normal"})
 local bg_color = normal_hl.bg and string.format("#%06x", normal_hl.bg) or "NONE"
