@@ -38,7 +38,41 @@ return {
         command = "gdb",
         args = { "--interpreter=dap", "--eval-command", "set print pretty on" },
       }
+
+
       dap.configurations.zig = {
+        {
+          -- snip --
+          args = function()
+            local argument_string = vim.fn.input "Program arguments: "
+            return vim.fn.split(argument_string, " ", true)
+          end,
+          -- snip --
+          name = "Launch",
+          type = "lldb",
+          request = "launch",
+          cwd = "${workspaceFolder}",
+          stopOnEntry = false,
+        },
+      }
+
+      dap.configurations.c = {
+        {
+          -- snip --
+          args = function()
+            local argument_string = vim.fn.input "Program arguments: "
+            return vim.fn.split(argument_string, " ", true)
+          end,
+          -- snip --
+          name = "Launch",
+          type = "lldb",
+          request = "launch",
+          cwd = "${workspaceFolder}",
+          stopOnEntry = false,
+        },
+      }
+
+      dap.configurations.asm = {
         {
           name = "Launch",
           type = "gdb",
