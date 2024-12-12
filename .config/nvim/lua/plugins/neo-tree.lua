@@ -10,7 +10,7 @@ return {
   },
   config = function()
     require("which-key").add {
-      { "<leader>n", ":Neotree filesystem reveal left<CR>", desc = " Toggle [N]eo[T]ree", icon = " " },
+      { "<leader>nt", ":Neotree filesystem toggle left<CR>", desc = "Toggle [N]eo[T]ree", icon = " " },
     }
   end,
 }
