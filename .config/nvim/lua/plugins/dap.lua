@@ -35,15 +35,48 @@ return {
         command = "/usr/bin/lldb-dap", -- adjust as needed, must be absolute path
         name = "lldb",
       }
+
+
       dap.configurations.zig = {
+        {
+          -- snip --
+          args = function()
+            local argument_string = vim.fn.input "Program arguments: "
+            return vim.fn.split(argument_string, " ", true)
+          end,
+          -- snip --
+          name = "Launch",
+          type = "lldb",
+          request = "launch",
+          cwd = "${workspaceFolder}",
+          stopOnEntry = false,
+        },
+      }
+
+      dap.configurations.c = {
+        {
+          -- snip --
+          args = function()
+            local argument_string = vim.fn.input "Program arguments: "
+            return vim.fn.split(argument_string, " ", true)
+          end,
+          -- snip --
+          name = "Launch",
+          type = "lldb",
+          request = "launch",
+          cwd = "${workspaceFolder}",
+          stopOnEntry = false,
+        },
+      }
+
+      dap.configurations.asm = {
         {
           name = "Launch",
           type = "lldb",
           request = "launch",
-          program = "${workspaceFolder}/termin",
           cwd = "${workspaceFolder}",
+          program = "${workspaceFolder}/a.out",
           stopOnEntry = false,
-          args = {},
         },
       }
       vim.keymap.set("n", "<space>db", dap.toggle_breakpoint)
