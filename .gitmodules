@@ -1,0 +1,3 @@
+[submodule ".tmux/plugins/tmux-autoreload"]
+	path = .tmux/plugins/tmux-autoreload
+	url = https://github.com/b0o/tmux-autoreload.git
