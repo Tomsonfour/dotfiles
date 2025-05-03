@@ -7,3 +7,6 @@
 [submodule "tmux/.tmux/plugins/vim-tmux-navigator"]
 	path = tmux/.tmux/plugins/vim-tmux-navigator
 	url = https://git::@github.com/christoomey/vim-tmux-navigator
+[submodule ".tmux/plugins/tmux-autoreload"]
+	path = .tmux/plugins/tmux-autoreload
+	url = https://github.com/b0o/tmux-autoreload.git

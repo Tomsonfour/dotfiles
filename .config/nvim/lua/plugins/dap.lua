@@ -1,6 +1,9 @@
+select_bin_picker = require "configs.select_binary"
+
 return {
   {
-    "mfussenegger/nvim-dap",
+
+    "mfplenary awaitussenegger/nvim-dap",
     lazy = false,
     dependencies = {
       "rcarriga/nvim-dap-ui",
@@ -30,10 +33,10 @@ return {
           return " " .. variable.value
         end,
       }
-      dap.adapters.lldb = {
+      dap.adapters.gdb = {
         type = "executable",
-        command = "/usr/bin/lldb-dap", -- adjust as needed, must be absolute path
-        name = "lldb",
+        command = "gdb",
+        args = { "--interpreter=dap", "--eval-command", "set print pretty on" },
       }
 
 
@@ -72,13 +75,23 @@ return {
       dap.configurations.asm = {
         {
           name = "Launch",
-          type = "lldb",
+          type = "gdb",
           request = "launch",
-          cwd = "${workspaceFolder}",
-          program = "${workspaceFolder}/a.out",
-          stopOnEntry = false,
+          cwd = vim.fn.getcwd(),
+          program = function()
+            return coroutine.create(function(program)
+              select_bin_picker({}, function(callback)
+                print(callback)
+                coroutine.resume(program, callback)
+              end)
+            end)
+          end,
+          stopOnEntry = true,
         },
       }
+      dap.configurations.c = dap.configurations.zig
+      dap.configurations.asm = dap.configurations.zig
+
       vim.keymap.set("n", "<space>db", dap.toggle_breakpoint)
       vim.keymap.set("n", "<space>gb", dap.run_to_cursor)
 
