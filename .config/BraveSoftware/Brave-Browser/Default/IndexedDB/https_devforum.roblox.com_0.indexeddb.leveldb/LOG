@@ -1,7 +1,0 @@
-2024/08/24-01:55:18.421 6c0 Reusing MANIFEST /home/tommy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_devforum.roblox.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/08/24-01:55:18.421 6c0 Recovering log #3
-2024/08/24-01:55:18.422 6c0 Reusing old log /home/tommy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_devforum.roblox.com_0.indexeddb.leveldb/000003.log 
-2024/08/24-01:55:58.725 6c0 Level-0 table #5: started
-2024/08/24-01:55:58.729 6c0 Level-0 table #5: 40423 bytes OK
-2024/08/24-01:55:58.734 6c0 Delete type=0 #3
-2024/08/24-01:55:58.735 6c0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

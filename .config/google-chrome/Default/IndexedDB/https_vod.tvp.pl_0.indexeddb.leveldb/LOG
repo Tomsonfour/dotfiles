@@ -1,6 +1,0 @@
-2024/06/16-14:58:30.237 617 Creating DB /home/tommy/.config/google-chrome/Default/IndexedDB/https_vod.tvp.pl_0.indexeddb.leveldb since it was missing.
-2024/06/16-14:58:30.246 617 Reusing MANIFEST /home/tommy/.config/google-chrome/Default/IndexedDB/https_vod.tvp.pl_0.indexeddb.leveldb/MANIFEST-000001
-2024/06/16-14:58:30.378 618 Level-0 table #5: started
-2024/06/16-14:58:30.384 618 Level-0 table #5: 662 bytes OK
-2024/06/16-14:58:30.397 618 Delete type=0 #3
-2024/06/16-14:58:30.397 618 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

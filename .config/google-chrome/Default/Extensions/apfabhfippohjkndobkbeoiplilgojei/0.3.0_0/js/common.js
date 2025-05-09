@@ -1,1 +1,0 @@
-'use strict';function $(a){return document.querySelectorAll(a)}function $$(a){return document.querySelector(a)}function get_css_var(a){return getComputedStyle(document.documentElement).getPropertyValue(`--${a}`)};

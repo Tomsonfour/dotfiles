@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("/public/scripts/example.ts")})();

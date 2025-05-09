@@ -1,6 +1,0 @@
-2024/07/27-17:11:03.501 613 Creating DB /home/tommy/.config/google-chrome/Default/IndexedDB/https_www.warp.dev_0.indexeddb.leveldb since it was missing.
-2024/07/27-17:11:03.508 613 Reusing MANIFEST /home/tommy/.config/google-chrome/Default/IndexedDB/https_www.warp.dev_0.indexeddb.leveldb/MANIFEST-000001
-2024/07/27-17:18:51.368 613 Level-0 table #5: started
-2024/07/27-17:18:51.370 613 Level-0 table #5: 5737 bytes OK
-2024/07/27-17:18:51.375 613 Delete type=0 #3
-2024/07/27-17:18:51.375 610 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

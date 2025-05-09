@@ -10,3 +10,39 @@
 [submodule ".tmux/plugins/tmux-autoreload"]
 	path = .tmux/plugins/tmux-autoreload
 	url = https://github.com/b0o/tmux-autoreload.git
+[submodule "tmux/.config/tmux/plugins/tmux-menus"]
+	path = tmux/.config/tmux/plugins/tmux-menus
+	url = https://git::@github.com/jaclu/tmux-menus
+[submodule "tmux/.config/tmux/plugins/tmux-resurrect"]
+	path = tmux/.config/tmux/plugins/tmux-resurrect
+	url = https://git::@github.com/tmux-plugins/tmux-resurrect
+[submodule "tmux/.config/tmux/plugins/treemux"]
+	path = tmux/.config/tmux/plugins/treemux
+	url = https://git::@github.com/kiyoon/treemux
+[submodule "tmux/.config/tmux/plugins/vim-tmux-navigator"]
+	path = tmux/.config/tmux/plugins/vim-tmux-navigator
+	url = https://git::@github.com/christoomey/vim-tmux-navigator
+[submodule "tmux/.config/tmux/plugins/tpm"]
+	path = tmux/.config/tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "tmux/.config/tmux/plugins/tmux-pomodoro"]
+	path = tmux/.config/tmux/plugins/tmux-pomodoro
+	url = https://git::@github.com/swaroopch/tmux-pomodoro
+[submodule "tmux/.config/tmux/plugins/tmux-which-key"]
+	path = tmux/.config/tmux/plugins/tmux-which-key
+	url = https://git::@github.com/alexwforsythe/tmux-which-key
+[submodule "tmux/.config/tmux/plugins/tmux-autoreload"]
+	path = tmux/.config/tmux/plugins/tmux-autoreload
+	url = https://git::@github.com/b0o/tmux-autoreload
+[submodule "tmux/.config/tmux/plugins/tmux"]
+	path = tmux/.config/tmux/plugins/tmux
+	url = https://git::@github.com/catppuccin/tmux
+[submodule "tmux/.config/tmux/plugins/tmux-fzf"]
+	path = tmux/.config/tmux/plugins/tmux-fzf
+	url = https://git::@github.com/sainnhe/tmux-fzf
+[submodule "tmux/.config/tmux/plugins/tmux-continuum"]
+	path = tmux/.config/tmux/plugins/tmux-continuum
+	url = https://git::@github.com/tmux-plugins/tmux-continuum
+[submodule "nvim/.config/nvim"]
+	path = nvim/.config/nvim
+	url = https://github.com/Tomsonfour/nvim.git

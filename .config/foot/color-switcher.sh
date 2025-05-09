@@ -1,1 +1,0 @@
-../../dotfiles/.config/foot/color-switcher.sh

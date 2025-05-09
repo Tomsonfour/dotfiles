@@ -1,6 +1,0 @@
-2024/08/09-19:44:15.339 6ac Creating DB /home/tommy/.config/google-chrome/Default/IndexedDB/https_play.max.com_0.indexeddb.leveldb since it was missing.
-2024/08/09-19:44:15.348 6ac Reusing MANIFEST /home/tommy/.config/google-chrome/Default/IndexedDB/https_play.max.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/08/09-19:44:17.555 6ad Level-0 table #5: started
-2024/08/09-19:44:17.559 6ad Level-0 table #5: 4416 bytes OK
-2024/08/09-19:44:17.567 6ad Delete type=0 #3
-2024/08/09-19:44:17.567 6ad Manual compaction at level-0 from (begin) .. (end); will stop at (end)
