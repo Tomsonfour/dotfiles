@@ -46,3 +46,6 @@
 [submodule "nvim/.config/nvim"]
 	path = nvim/.config/nvim
 	url = https://github.com/Tomsonfour/nvim.git
+[submodule "tmux/.config/tmux"]
+	path = tmux/.config/tmux
+	url = https://github.com/tmux/tmux
